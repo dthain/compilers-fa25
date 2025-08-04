@@ -26,25 +26,25 @@
 
 (Subject to change as needed.)
 
-|Week | Reading      | Monday          | Wednesday     | Thursday     |Friday      | Extra Links |
-|-----|--------------|-----------------|---------------|--------------|------------|-------------|
-|Aug 25 | Ch 1-2     |                 | Intro         |              | Overview   | [Syllabus](syllabus.md)  |
-|Sep 1 | Ch 3       | Regular Expressions <br> **[HW1 Due](homework.md)** | Finite Automata       | **[Encoder Due](encoder)** | RE->NFA | [Hand Parser](https://github.com/cooperative-computing-lab/cctools/blob/master/dttools/src/jx_parse.c#L254) <br> [Regex 101](https://regex101.com/) <br> [Regex Golf](http://alf.nu/RegexGolf?world=regex&level=r02) <br> [Unicode](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/) |
-|Sep 8  | Ch 3       | NFA->DFA             | Flex           | [HW2 Due](homework)     | Context Free Grammars | [Flex Scanner Generator](https://westes.github.io/flex/manual/)
-|Sep 15 | Ch 4.1-4.3 | Context Free Grammars| LL(1) Grammars | [Scanner Due](scanner) | Recursive Descent    |
-|Sep 22 | Ch 4.4-4.6 | LL(1) Table Parsing  | Shift-Reduce Parsing |  [HW3 Due](homework) | LR(0) Automaton |
-|Sep 29 | Ch 5       | SLR Parsing          |LR(1) Parsing        |     | Bison            | [Bison Examples](https://github.com/dthain/compilerbook-examples/tree/master/chapter5)
-|Oct 6  | Ch 5       | Parsing B-Minor<br>[HW4 Due](homework)  | Parsing B-Minor| | Abstract Syntax Tree | [AST Handout](ast.html) |
-|Oct 13  | Ch 6       | Abstract Syntax Tree | Review <br> **[Parser Due](parser)** |     | **[Midterm Exam](midterm)** |
-|Oct 20 | Ch 7       | AST / Printing  | Type Systems          |                  | Name Resolution   |
-|Oct 27 |            | *Fall Break*    | *Fall Break*          | *Fall Break*     | *Fall Break*      |
-|Nov 3 | Ch 7       | Typechecking <br> **[Printer Due](printer)** | Typechecking  |                  |  Typechecking |
-|Nov 10  | Ch 9       | Memory Org | Memory Org | **[Resolver Due](resolve)** | Memory Org | 
-|Nov 17 | Ch 10      | Assembly         | Assembly               | **[Typecheck Due](typecheck)** | Assembly | [Intel Manuals](https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html) <br> [Calling Convention](https://refspecs.linuxbase.org/elf/x86_64-abi-0.99.pdf)
-|Nov 24  | Ch 11      | Codegen         | *Thanksgiving*        | *Thanksgiving*   | *Thanksgiving*     |
-|Dec 1   | Ch 11      | Codegen          | Codegen         |                      |  Codegen |
-|Dec 8  |            | Catch Up        | Review<br>**[Codegen Due](codegen)** |                |
-|Dec 15  |           | Final Exam TBA  |                 |                  |                    |
+|Week | Reading      | Due Monday      | Monday        | Wednesday    |Friday       | Extra Links |
+|-----|--------------|-----------------|---------------|--------------|-------------|-------------|
+|Aug 25 | Ch 1-2     | Intro<br>[Syllabus](syllabus.md)| Overview     | Regular Expressions<br> **[HW1 Due](homework)**  | [Unicode](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/) <br> [Regex 101](https://regex101.com/) <br> [Regex Golf](http://alf.nu/RegexGolf?world=regex&level=r02) <br>
+|Sep 1  | Ch 3       | Encoder Due     | Finite Automata | RE->NFA           | NFA->DFA                    | [Hand Scanner](https://github.com/cooperative-computing-lab/cctools/blob/master/dttools/src/jx_parse.c#L254)
+|Sep 8  | Ch 3       | HW2 Due         | Flex            | CFGs              | CFGs                        | [Flex Scanner Generator](https://westes.github.io/flex/manual/)
+|Sep 15 | Ch 4.1-4.3 | Scanner Due     | LL(1) Grammars  | Recursive Descent | LL(1) Table Parsing         |
+|Sep 22 | Ch 4.4-4.6 | HW3 Due         | Shift-Reduce Parsing | LR(0) Automaton | SLR Parsing              |
+|Sep 29 | Ch 5       |                 | LR(1) Parsing   | Bison             | Parsing B-Minor            | [Bison Examples](https://github.com/dthain/compilerbook-examples/tree/master/chapter5)
+|Oct 6  | Ch 5       | HW4 Due         | Parsing B-Minor | AST               | AST                         | [AST Handout](ast.html) |
+|Oct 13 | Ch 6       | Parser Due      | AST / Printing  | Review            | **[Midterm Exam](midterm)** |
+|Oct 20 | Ch 7       | Printer Due     | Type Systems    | Type Systems      | Name Resolution             |
+|Oct 27 |            |                 | *Fall Break*    | *Fall Break*      | *Fall Break*                |
+|Nov 3  | Ch 7       |                 | Typechecking    | Typechecking      | Typechecking                |
+|Nov 10 | Ch 9       | Resolver Due    | Memory Org      | Memory Org        | Memory Org                  | 
+|Nov 17 | Ch 10      | Typechecker Due | Assembly        | Assembly          | Assembly                    | [Intel Manuals](https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html) <br> [Calling Convention](https://refspecs.linuxbase.org/elf/x86_64-abi-0.99.pdf)
+|Nov 24 | Ch 11      |                 | Codegen         | *Thanksgiving*    | *Thanksgiving*              |
+|Dec 1  | Ch 11      |                 | Codegen         | Codegen           | Codegen                     |
+|Dec 8  |            | Codegen Due     | Optimization    | Review            | *Exam Week*                 |
+|Dec 15 |            |                 | *Exam Week*     | *Exam Week*       | *Exam Week*                 |
 
 <!--
 [CFG Tool](https://web.stanford.edu/class/archive/cs/cs103/cs103.1156/tools/cfg/)
