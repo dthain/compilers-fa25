@@ -1,21 +1,11 @@
-# Syllabus - CSE 40243/60243 - Compilers and Language Design - Fall 2022
+# Syllabus - CSE 40243/60243 - Compilers and Language Design - Fall 2025
 
 ## Instructors
 
 Prof. Douglas Thain
 - Email: `dthain@nd.edu`
 - Office: 384C Fitzpatrick Hall
-- Office Hours: 1-3PM Mon/Thu
-
-TA: Colin Thomas
-- Email: `cthoma26@nd.edu`
-- Office: 150B Fitzpatrick (CSE Student Commons)
-- Office Hours: 3-5PM Mon/Wed
-
-TA: David Simonetti
-- Email: `dsimone2@nd.edu`
-- Office: 150B Fitzpatrick (CSE Student Commons)
-- Office Hours: 3-5PM Tue/Thu
+- Office Hours: TBA
 
 ## Overview
 

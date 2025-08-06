@@ -28,7 +28,7 @@
 
 |Week | Reading      | Due Monday      | Monday        | Wednesday    |Friday       | Extra Links |
 |-----|--------------|-----------------|---------------|--------------|-------------|-------------|
-|Aug 25 | Ch 1-2     | Intro<br>[Syllabus](syllabus.md)| Overview     | Regular Expressions<br> **[HW1 Due](homework)**  | [Unicode](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/) <br> [Regex 101](https://regex101.com/) <br> [Regex Golf](http://alf.nu/RegexGolf?world=regex&level=r02) <br>
+|Aug 25 | Ch 1-2     |                 | Intro<br>[Syllabus](syllabus.md)| Overview     | Regular Expressions<br> **[HW1 Due](homework)**  | [Unicode](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/) <br> [Regex 101](https://regex101.com/) <br> [Regex Golf](http://alf.nu/RegexGolf?world=regex&level=r02) <br>
 |Sep 1  | Ch 3       | Encoder Due     | Finite Automata | RE->NFA           | NFA->DFA                    | [Hand Scanner](https://github.com/cooperative-computing-lab/cctools/blob/master/dttools/src/jx_parse.c#L254)
 |Sep 8  | Ch 3       | HW2 Due         | Flex            | CFGs              | CFGs                        | [Flex Scanner Generator](https://westes.github.io/flex/manual/)
 |Sep 15 | Ch 4.1-4.3 | Scanner Due     | LL(1) Grammars  | Recursive Descent | LL(1) Table Parsing         |
@@ -38,7 +38,8 @@
 |Oct 13 | Ch 6       | Parser Due      | AST / Printing  | Review            | **[Midterm Exam](midterm)** |
 |Oct 20 | Ch 7       | Printer Due     | Type Systems    | Type Systems      | Name Resolution             |
 |Oct 27 |            |                 | *Fall Break*    | *Fall Break*      | *Fall Break*                |
-|Nov 3  | Ch 7       |                 | Typechecking    | Typechecking      | Typechecking                |
+|Nov 3  | Ch 7       |                 |
+Typechecking    | Typechecking      | Typechecking                |
 |Nov 10 | Ch 9       | Resolver Due    | Memory Org      | Memory Org        | Memory Org                  | 
 |Nov 17 | Ch 10      | Typechecker Due | Assembly        | Assembly          | Assembly                    | [Intel Manuals](https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html) <br> [Calling Convention](https://refspecs.linuxbase.org/elf/x86_64-abi-0.99.pdf)
 |Nov 24 | Ch 11      |                 | Codegen         | *Thanksgiving*    | *Thanksgiving*              |
