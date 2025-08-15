@@ -3,11 +3,12 @@
 **Note: The B-Minor language used in this class changes
 each year in order to provide new challenges 
 and opportunities.  This document differs from the one
-in the textbook in the following ways:**
+in the qtextbook in the following ways:**
 
 - Strings and characters have a number of additional escape codes.
-- Arrays can be declared with length determined at runtime.
-- Floating point values and types have been added.
+- Double precision floating point values, types, and operators have been added.
+- Arrays have an intrinsic length that is bounds-checked at runtime and read by the `#` operator.
+- `auto` indicates a variable type to be inferred from context.
 
 ## Overview
 
@@ -50,32 +51,29 @@ i x mystr fog123 BigLongName55
 
 The following strings are B-minor keywords (or reserved for future expansion) and may not be used as identifiers:
 ```
-array auto boolean char else false float for function if integer print return string true void while
+array auto boolean carray char else false float double for function if integer print return string true void while
 ```
 
 ## Types
 
-B-minor has five atomic types: integers, floats, booleans, characters, and strings.
+B-minor has five atomic types: integers, doubles, booleans, characters, and strings.
 A variable is declared as a name followed by a colon, then a type and
 an optional initializer.  For example:
 
 ```
 x: integer;
 y: integer = 123;
-f: float = 45.67;
+f: double = 45.67;
 b: boolean = false;
 c: char    = 'q';
 s: string  = "hello bminor\n";
 ```
 
-An `integer` is always a signed 64 bit value.   `float` is a floating point number that follows the [IEEE 754 double-precision standard](https://en.wikipedia.org/wiki/Double-precision_floating-point_format).   `boolean` can take the literal values `true` or `false`.  `char` is a single 8-bit ASCII character.  `string` is a double-quoted constant string that is null-terminated and cannot be modified.
+An `integer` is always a signed 64 bit value.   `double` is a floating point number that follows the [IEEE 754 double-precision standard](https://en.wikipedia.org/wiki/Double-precision_floating-point_format).   `boolean` can take the literal values `true` or `false`.  `char` is a single 8-bit ASCII character.  `string` is a double-quoted constant string that is null-terminated and cannot be modified.
 
-`float` values can be represented in various ways. One method is to place the integer component, a period, and the fractional component all in a row, such as in `12.34`. Another valid method is to use the scientific representation of the value, which involves having a floating point value as described above followed by an exponent (represented as either `e` or `E`). Some examples of this would be `5.67E1` which has the value of 56.7, or `89e-2` which has the value of .89. `float` values can be preceeded by an optional plus or minus sign. The value of the exponent can also be preceeded by an optional plus or minus sign. Additionally, only the integer portion of the float can be omitted for valid values of `float`. This makes `.123` a valid floating point number but not `11.`.
+`double` values can be represented in various ways. One method is to place the integer component, a period, and the fractional component all in a row, such as in `12.34`. Another valid method is to use the scientific representation of the value, which involves having a floating point value as described above followed by an exponent (represented as either `e` or `E`). Some examples of this would be `5.67E1` which has the value of 56.7, or `89e-2` which has the value of .89. `double` values can be preceeded by an optional plus or minus sign. The value of the exponent can also be preceeded by an optional plus or minus sign.  Finally, a suffix of `D` can be used to distinguish a floating-point representation of an integer (`13D`) from a true integer (`13`).  The `D` is optional in all other cases.
 
-Both `char` and `string` may contain any printable character
-between ASCII decimal values 32 and 126 inclusive.
-In addition, the following backslash codes are used to represent
-special characters:
+Both `char` and `string` literals may contain any ASCII value between 32 and 127.  Values outside that range can be represented by the following backslash codes:
 
 Code | Value | Meaning
 -----|-------|--------
@@ -90,13 +88,16 @@ Code | Value | Meaning
 `\\` | 92 | Backslash
 `\'` | 39 | Single Quote
 `\"` | 34 | Double Quote
-`\0xHH` | HH | The byte given by two characters HH in hexadecimal
+`\0xHH` | HH | The byte value given by two characters HH in hexadecimal.
 
-(Any other character following a backslash is not valid.)
+(Any other character following a backslash represents exactly that character.)
 
 Both strings and identifiers may be up to **255** characters long, not including the null terminator.
 
-B-minor also supports global arrays of a fixed size, and local arrays of variable size. They may be declared with no value, which causes them to contain all zeros:
+## Arrays
+
+B-minor supports local and global arrays of a fixed size.
+They may be declared with no value, which causes them to contain all zeros:
 
 ```
 a: array [5] integer;
@@ -108,15 +109,42 @@ Or, the entire array may be given specific values:
 a: array [5] integer = {1,2,3,4,5};
 ```
 
+The length of an array is given by the `#` operator:
+
+```
+l: integer = # a;
+```
+
+Array accesses are bounds-checked at runtime.  If a program attempts to access an illegal array element, the program will be aborted with a suitable error message, thus avoiding undefined behavior.  For example, the following program will attempt to run off the end of the array, and be aborted:
+
+```
+for( i=0; i<=#a; i++ ) {
+        print a[i];
+}
+```
+
+To allow for compatibility with C and other languages that do not perform bounds checking,
+the type `carray` provides simple arrays that do **not** support the `#` operator,
+do not perform bounds checking, and are therefore unsafe.  For example, this example
+runs off the end of the array and will have undefined behavior:
+
+```
+c: carray [5] integer = {1,2,3,4,5};
+for( i=0; i<5; i++ ) {
+     print c[i];
+}
+```
+
 ## Expressions
 
-B-minor has many of the arithmetic operators found in C, with the same
-meaning and level of precedence:
+B-minor has many of the arithmetic operators found in C,
+along with a few additions, following a similar order of precedence:
 
 | Symbol | Meaning |
 |--------|---------| 
 | `()` `[]` `f()` | grouping, array subscript, function call |
 | `++` `--`       | postfix increment, decrement |
+| `#`             | unary array length |
 | `-` `!`         | unary negation, logical not |
 | `^`             | exponentiation |
 | `*` `/` `%`     | multiplication, division, remainder |
@@ -148,7 +176,7 @@ x: integer = 0;
 x = b[0];      // error: x is not a boolean!
 
 x: integer = 0;
-y: float = x;  // error: integer types can not be implicitly converted to float
+y: double = x;  // error: integer types can not be implicitly converted to double
 ```
 
 Following are some (but not all) examples of correct type assignments:
@@ -163,6 +191,19 @@ if(f==0) ...    // ok: f==0 is a boolean expression
 
 c: char = 'a';
 if(c=='a') ...  // ok: c and 'a' are both chars
+```
+
+The `auto` type is used to declare a variable whose (fixed) type is to be inferred at compile-time:
+
+```
+s: auto = "hello"; // s will have type string
+
+t: auto = x < y;   // t will have type boolean
+
+f: function auto ( x: integer, y: integer )
+{
+	return x + y;  // f will have return type integer
+}
 ```
 
 ## Declarations and Statements
@@ -184,9 +225,6 @@ for loops, or code within inner { } groups:
 // An arithmetic expression statement.
 y = m*x + b;
 
-// A return statement.
-return (f-32)*5/9;
-
 // An if-else statement.
 if( temp>100 ) {
     print "It's really hot!\n";
@@ -200,6 +238,9 @@ if( temp>100 ) {
 for( i=0; i<100; i++ ) {
     print i;
 }
+
+// A return statement.
+return (f-32)*5/9;
 ```
 
 B-minor does not have switch statements, while-loops, or do-while loops.
@@ -214,6 +255,9 @@ and prints each out to the console, like this:
 print "The temperature is: ", temp, " degrees\n";
 ```
 
+Note that each expression in the list may have a distinct type.
+`print` will determine the proper type and print accordingly.
+
 ## Functions
 
 Functions are declared in the same way as variables,
@@ -221,24 +265,23 @@ except giving a type of `function` followed by
 the return type, arguments, and code:
 
 ```
-square: function integer ( x: integer ) = {
+square: function integer ( x: integer ) {
 	return x^2;
 }
 ```
 
 The return type must be one of the four atomic types,
-or `void` to indicate no type.  Function arguments
-may be of any type.  `integer`, `boolean`,
-and `char` arguments are passed by value, while
-`string` and `array` arguments are passed
-by reference. The implementation of arrays will include a 
-`array_length()` function which can be used to obtain the length of
-an array at runtime. 
+`auto` to indicate inferred type, or `void` to indicate no return value.
+Function arguments may be of any type except `auto` or `void`.
+`integer`, `boolean`, and `char` arguments are passed by value, while
+`string` and `array` arguments are passed by reference.
+When used as a function parameter, the length of an array is omitted,
+and can be obtained at runtime with the `#` operator.
 
 ```
-printarray: function void ( a: array [] integer ) = {
+printarray: function void ( a: array [] integer ) {
 	i: integer;
-	for( i=0;i<array_length(a);i++) {
+	for( i=0;i<#a;i++) {
 		print a[i], "\n";
 	}
 }
@@ -253,18 +296,18 @@ by another library.  For example, to invoke the C function `puts`:
 ```
 puts: function void ( s: string );
 
-main: function integer () = {
+main: function integer () {
 	puts("hello world");
 }
 ```
 
-A complete program must have a `main` function
-that returns an integer.  the arguments to `main`
-may either be empty, or use `argc` and `argv`
-with the same meaning as in C:
+A complete program must have a `main` function that returns an integer.
+The arguments to `main` have the same meaning as `argc` and `argv`
+in the C language: `argc` indicates the number of arguments, and
+`argv` is an (unsafe) array of strings:
 
 ```
-main: function integer ( argc: integer, argv: array [] string ) = {
+main: function integer ( argc: integer, argv: carray [] string ) {
         puts("hello world");
 }
 ```
@@ -294,12 +337,9 @@ A: No, they are not part of B-minor.
 
 - **Q: Can an integer have a leading negative/positive sign?**
 
-<s>A: Yes, and it's important later that this counts as a single
-token, and not as two separate tokens. `-10` and `+123` should scan as NUMBER.</s>
-
-A: To avoid parsing problems, the scanner should treat an integer
-as just a sequence of digits.  In the parsing step, we will allow for
-a unary plus or minus to modify the integer.
+A: Yes, it can have a leading sign.  However, we recommend that you
+treat this as two separate tokens like  `TOKEN_MINUS` `TOKEN_INTEGER`
+so as to avoid some parsing problems later on.
 
 ### Parsing
 
@@ -349,17 +389,7 @@ TBA
 
 ### Typechecking
 
-- *Q: Can you clarify how each operator can be used?*
-A: See section 7.3 in the textbook.
-
-- *Q: Does B-minor allow arrays of functions, functions that return functions, variables of type function, and things of that sort?*
-A: No, those should be flagged as type errors, since we won't be implementing them in the code generation.
-
-- *Q: What sort of expression can be used to initialize the length of an array?*
-A: When an array is declared as a global variable, the length must be given as a constant integer. When an array is declared as a local variable, its length may be specified as an expression which the typechecker will evaluate as an integer. Any other expression should result in a type error.  When an array is declared as a function parameter, it should have no length given.
-
--  *Q: What type should be assumed for a variable or function that cannot be resolved?*
-A:  There is no good assumption that you can make.  To avoid this problem, you should stop after the name resolution phase, if any name resolution errors are discovered.
+TBA
 
 ### Code Generation
 
