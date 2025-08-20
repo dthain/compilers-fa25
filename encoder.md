@@ -29,7 +29,7 @@ Write two functions like this:
 
 ```
 int string_decode( const char *es, char *s );
-int string_encode( const char *s, char *es );
+void string_encode( const char *s, char *es );
 ```
 
 `string_decode` should take in an encoded input string `es` containing
@@ -37,7 +37,7 @@ quotes and (possibly) backslash codes, then convert it into a normal string `s`
 without quotes or codes.  If the input string is valid and the conversion
 is successful, it should return true.  Otherwise, it should return false.
 `string_encode` should do the opposite and convert a normal string into
-an encoded string that can be printed back out.
+an encoded string that can be printed back out.  (encode should not fail.)
 
 For example, if the input encoded string looks like this:
 
@@ -112,22 +112,24 @@ done
 
 ## Make a Makefile
 
-Now is the time to have a proper Makefile, and use it to build your compiler at all stages.  Make sure that the following commands work:
+Now is the time to have a proper `Makefile`, and use it to build your compiler at all stages.
+Make sure that the following commands work:
+
 - `make` should build the program `bminor` from sources.
-- `make clean` should remove all executables and object files.
+- `make clean` should remove all executables, object files, and intermediate files.
 - `make test` should run all your test cases.
 
 ## Development Log
 
 Create one more file in your repository (`devel.md`) which contains a development log.
 For each stage of the compiler, add a new section with a few thoughts on building this stage:
-- What AI tools did you use, and what sort of prompts did you provide?
-- What parts of the code were easily generated?
+- What AI tools (if any) did you use, and what sort of prompts did you provide?
+- What parts of the code were easy to get right?
 - What parts were difficult to get right and required more effort?
 
 ## Turning In
 
 Be sure to `git add` and `git commit` all of your files in your repository.  (Don't add object files, executables files, or anything else that is built from source files.)  Then review the [General Instructions for Turning In](general).  Make sure that your code is tagged as a release named `encoder`.
 
-**This assignment is due on Monday, Sep 1st at 9:00AM Late assignments are not accepted.**
+**This assignment is due on Friday, Sep 5th at 9:30AM.**
 

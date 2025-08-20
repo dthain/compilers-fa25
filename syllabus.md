@@ -24,7 +24,7 @@ This will be a fun and challenging course for advanced undergraduate students.
 Compilers cover a broad array of topics in computer
 science, ranging from the abstract theory of automata to the very practical details of assembly languages.
 You will gain experience with tools and techniques for software engineering.
-Computing this course will help you to develop a broad range of skills valuable
+Completing this course will help you to develop a broad range of skills valuable
 in the job market or graduate studies.
 
 ## Course Web Page
@@ -48,7 +48,7 @@ in the job market or graduate studies.
 - Employ standard tools to create scanners, parsers, and code generators. (Projects 2, 3, and 5)
 - Construct a complete working compiler for a small language. (Overall Project)
 
-## Course Design
+## How to Get the Most Out of this Course
 
 This course will be a mix of "low tech" and "high tech" components.
 Class time and written homeworks will be organized around "low tech"
@@ -154,7 +154,7 @@ Programming assignments must be pushed to your private github repository and tag
 up piece by piece, and it's important to stay on track.  If some assignment isn't
 working out perfectly, it's usally best to submit what you have on time, and keep moving.
 
-You are permitted **one free late pass* to account for the ordinary circumstances of
+You are permitted **one free late pass** to account for the ordinary circumstances of
 life, such as a minor illness, schedule conflict, etc.  To do so, just
 send an email to the TA **before the deadline**, saying briefly "I would like to take a late pass on assignment X".
 And the due date for that item will be extended by seven calendar days.
