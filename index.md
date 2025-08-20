@@ -24,6 +24,8 @@ MWF 9:30-10:20 in Cushing 303
 
 ## Course Schedule
 
+<font size=-1>
+
 <table>
 
 <tr>
@@ -267,3 +269,5 @@ Dec 8
 <td>
 
 </table>
+
+</font>
