@@ -26,20 +26,20 @@ MWF 9:30-10:20 in Cushing 303
 
 <table>
 
+<tr>
 <th>
-<td>
 Week
-<td>
+<th>
 Readings
-<td>
+<th>
 Monday
-<td>
+<th>
 Wednesday
-<td>
+<th>
 Friday
-<td>
+<th>
 Due Friday
-<td>
+<th>
 Reference
 
 <tr>
@@ -48,7 +48,7 @@ Aug 25
 <td>
 <a href=syllabus>Syllabus</a><br>
 <a href="https://dthain.github.io/books/compiler/chapter1.pdf">Chapter 1</a>, <a href="https://dthain.github.io/books/compiler/chapter2.pdf">Chapter 2</a><br>
-<a href="https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/">The Absolute Minimum...</a> 
+<a href="https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/">The &nbsp;Absolute&nbsp;Minimum...</a> 
 <td>
 Intro
 <td>
@@ -64,9 +64,9 @@ Regular Expressions
 <td>
 Sep 1
 <td>
-<a href="bminor">B-Minor 2025 Overview</a><br>
+<a href="bminor">B-Minor&nbsp;2025</a><br>
 <a href="https://dthain.github.io/books/compiler/chapter3.pdf">Chapter 3</a><br>
-<a href="https://nee.lv/2021/02/28/How-I-cut-GTA-Online-loading-times-by-70/~">GTA Loading Time</a>
+<a href="https://nee.lv/2021/02/28/How-I-cut-GTA-Online-loading-times-by-70/~">GTA&nbsp;Loading&nbsp;Time</a>
 <td>
 RE->NFA
 <td>
@@ -93,8 +93,8 @@ LL(1) Grammars
 <td>
 Homework 2
 <td>
-<a href="https://web.stanford.edu/class/archive/cs/cs103/cs103.1156/tools/cfg/">CFG Tool</a>
-<a href="https://en.wikipedia.org/wiki/Comparison_of_parser_generators">List of Parser Generators</a>
+<a href="https://web.stanford.edu/class/archive/cs/cs103/cs103.1156/tools/cfg/">CFG&nbsp;Tool</a>
+<a href="https://en.wikipedia.org/wiki/Comparison_of_parser_generators">Parser&nbsp;Generators</a>
 
 <tr>
 <td>
@@ -115,7 +115,7 @@ Scanner Due
 <td>
 Sep 22
 <td>
-<a href="https://dthain.github.io/books/compiler/chapter4.pdf">Chapter - 4.4-4.6</a>
+<a href="https://dthain.github.io/books/compiler/chapter4.pdf">Chapter 4.4-4.6</a>
 <td>
 Shift-Reduce Parsing
 <td>
@@ -124,7 +124,7 @@ LR(0) Automaton
 SLR Parsing
 <td>
 Homework 3 Due
-
+<td>
 
 <tr>
 <td>
@@ -140,9 +140,9 @@ Parsing B-Minor
 <td>
 Homework 4 Due
 <td>
-<a href="https://www.gnu.org/software/bison/manual/html_node/index.html">Bison Manual</a>
+<a href="https://www.gnu.org/software/bison/manual/html_node/index.html">Bison&nbsp;Manual</a>
 <br>
-<a href="https://github.com/dthain/compilerbook-examples/tree/master/chapter5">Bison Examples</a>
+<a href="https://github.com/dthain/compilerbook-examples/tree/master/chapter5">Bison&nbsp;Examples</a>
 
 <tr>
 <td>
@@ -191,9 +191,9 @@ Printer Due
 <td>
 Oct 27
 <td>
-<td>*Fall Break*
-<td>*Fall Break*
-<td>*Fall Break*
+<td><i>Fall Break</i>
+<td><i>Fall Break</i>
+<td><i>Fall Break</i>
 <td>
 <td>
 
@@ -225,14 +225,13 @@ Nov 10
 Nov 17
 <td>
 <a href="https://dthain.github.io/books/compiler/chapter10.pdf">Chapter 10</a>
-Ch 10
 <td>Assembly
 <td>Assembly
 <td>Assembly
 <td>
-<td><a href="https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html">Intel Manuals</a>
+<td><a href="https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html">Intel&nbsp;Manuals</a>
 <br>
-<a href="https://refspecs.linuxbase.org/elf/x86_64-abi-0.99.pdf">Calling Convention</a>
+<a href="https://refspecs.linuxbase.org/elf/x86_64-abi-0.99.pdf">Calling&nbsp;Convention</a>
 
 <tr>
 <td>
@@ -240,8 +239,8 @@ Nov 24
 <td>
 <a href="https://dthain.github.io/books/compiler/chapter11.pdf">Chapter 11</a>
 <td>Codegen
-<td>*Thanksgiving*
-<td>*Thanksgiving*
+<td><i>Thanksgiving</i>
+<td><i>Thanksgiving</i>
 <td>
 <td>
 
@@ -261,6 +260,6 @@ Dec 1
 Dec 8
 <td> Optimization
 <td> Review<br>Codegen Due
-<td> **Final Exam**<br>**7:30-9:30PM**
+<td> <b>Final Exam</b><br><b>7:30-9:30PM</b>
 <td>
 <td>
