@@ -3,8 +3,9 @@
 **Note: The B-Minor language used in this class changes
 each year in order to provide new challenges 
 and opportunities.  This document differs from the one
-in the qtextbook in the following ways:**
+in the textbook in the following ways:**
 
+- Integers may be represented as decimal, hexidecimal or binary.
 - Strings and characters have a number of additional escape codes.
 - Double precision floating point values, types, and operators have been added.
 - Arrays have an intrinsic length that is bounds-checked at runtime and read by the `#` operator.
@@ -39,11 +40,11 @@ Both C-style and C++-style comments are valid in B-minor:
 a=5; // A C++ style comment
 ```
 
-## Identifiers
+## Identifiers and Keywords
 
 Identifiers (i.e. variable and function names) may contain
 letters, numbers, and underscores.  Identifiers must begin with a letter
-or an underscore.  These are examples of valid identifiers:
+or an underscore and may be up to 255 characters long.  These are examples of valid identifiers:
 
 ```
 i x mystr fog123 BigLongName55
@@ -69,9 +70,16 @@ c: char    = 'q';
 s: string  = "hello bminor\n";
 ```
 
-An `integer` is always a signed 64 bit value.   `double` is a floating point number that follows the [IEEE 754 double-precision standard](https://en.wikipedia.org/wiki/Double-precision_floating-point_format).   `boolean` can take the literal values `true` or `false`.  `char` is a single 8-bit ASCII character.  `string` is a double-quoted constant string that is null-terminated and cannot be modified.
+- `integer` is a signed 64-bit value.  An integer literal can be represented as a decimal (`123`),
+a hexidecimal value with an `H` suffix (`104A3FH`), or a binary value with a `B` suffix (`0101110101B`).  All three forms may omit leading zeroes as needed.
 
-`double` values can be represented in various ways. One method is to place the integer component, a period, and the fractional component all in a row, such as in `12.34`. Another valid method is to use the scientific representation of the value, which involves having a floating point value as described above followed by an exponent (represented as either `e` or `E`). Some examples of this would be `5.67E1` which has the value of 56.7, or `89e-2` which has the value of .89. `double` values can be preceeded by an optional plus or minus sign. The value of the exponent can also be preceeded by an optional plus or minus sign.  Finally, a suffix of `D` can be used to distinguish a floating-point representation of an integer (`13D`) from a true integer (`13`).  The `D` is optional in all other cases.
+- `double` is a floating point number that follows the [IEEE 754 double-precision standard](https://en.wikipedia.org/wiki/Double-precision_floating-point_format).  `double` values can be represented in various ways. One method is to place the integer component, a period, and the fractional component all in a row, such as in `12.34`. Another valid method is to use the scientific representation of the value, which involves having a floating point value as described above followed by an exponent (represented as either `e` or `E`).   The exponent value may be preceded by an optional plus or minus sign.  Some examples of this would be `5.67E1` which has the value of 56.7, or `89e-2` which has the value of .89.
+
+- `boolean` can take the literal values `true` or `false`.
+
+- `char` is a single 8-bit ASCII character enclosed in single quotes.
+
+- `string` is a double-quoted constant string of ASCII characters that is immutable and (internally) null-terminated.  Strings may contain up to 255 characters.  (Backslash codes noted below each indicate one character.)
 
 Both `char` and `string` literals may contain any ASCII value between 32 and 127.  Values outside that range can be represented by the following backslash codes:
 
@@ -90,9 +98,7 @@ Code | Value | Meaning
 `\"` | 34 | Double Quote
 `\0xHH` | HH | The byte value given by two characters HH in hexadecimal.
 
-(Any other character following a backslash represents exactly that character.)
-
-Both strings and identifiers may be up to **255** characters long, not including the null terminator.
+Any *other* character following a backslash represents exactly that character.
 
 ## Arrays
 
@@ -115,7 +121,7 @@ The length of an array is given by the `#` operator:
 l: integer = # a;
 ```
 
-Array accesses are bounds-checked at runtime.  If a program attempts to access an illegal array element, the program will be aborted with a suitable error message, thus avoiding undefined behavior.  For example, the following program will attempt to run off the end of the array, and be aborted:
+Array accesses are bounds-checked at runtime.  If a program attempts to access an illegal array element, the program will be aborted with a suitable error message, thus avoiding undefined behavior.  For example, the following program will attempt to run off the end of the array, and be aborted at runtime:
 
 ```
 for( i=0; i<=#a; i++ ) {
@@ -130,7 +136,7 @@ runs off the end of the array and will have undefined behavior:
 
 ```
 c: carray [5] integer = {1,2,3,4,5};
-for( i=0; i<5; i++ ) {
+for( i=0; i<=5; i++ ) {
      print c[i];
 }
 ```
