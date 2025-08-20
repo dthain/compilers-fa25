@@ -2,10 +2,8 @@
 
 ## Instructors
 
-Prof. Douglas Thain
-- Email: `dthain@nd.edu`
-- Office: 384C Fitzpatrick Hall
-- Office Hours: TBA
+- Prof. Douglas Thain `dthain@nd.edu`
+- TA: Prince Noah Johnson `pjohns24@nd.edu`
 
 ## Overview
 
@@ -16,31 +14,25 @@ steps, requiring the construction of a scanner, parser, type checker,
 source translator, and code generator.   More theoretical topics will
 be explored in lectures and written assignments and evaluated in exams.
 
-This will be a fun and challenging course for advanced undergraduates
-as well as graduate students.  Compilers cover a broad array of topics in computer
-science, ranging from the abstract theory of automata to the very practical details
-of assembly languages.   In addition, students will gain experience with tools
-and techniques for software engineering.
+This will be a fun and challenging course for advanced undergraduate students.
+Compilers cover a broad array of topics in computer
+science, ranging from the abstract theory of automata to the very practical details of assembly languages.
+You  will gain experience with tools and techniques for software engineering.
 Students completing this course will gain a broad range of skills valuable
 in both the job market and in graduate studies.
 
-Graduate students taking 60243 will attend the same class but will have
-some additional work to earn graduate credit, including an expository
-paper on a modern compiler technique, and a substantial extension to
-the project compiler.
-
-The textbook is online and your are welcome to download 
+The textbook is online at `compilerbook.org` and you are welcome to download 
 PDFs for online reading, or purchase a hard copy online.
 Make a habit of reading the appropriate chapter over the weekend before
-Monday's lecture begins.  (Read Chapters 1 and 2 today.)
+Monday's lecture begins.
 
 Note there are still a few typos lurking here and there in the book,
-and I will grant a little credit (1/10th of a point) for each typo
+and I will grant a little extra credit (1/10th of a point) for each typo
 correctly reported and fixed, up to a maximum of 10 points.  Read carefully!
 
 ## Course Web Page
 
-[http://dthain.github.io/compilers-fa23](http://dthain.github.io/compilers-fa23)
+[http://dthain.github.io/compilers-fa25](http://dthain.github.io/compilers-fa25)
 
 ## Textbook
 
@@ -62,42 +54,82 @@ correctly reported and fixed, up to a maximum of 10 points.  Read carefully!
 - Employ standard tools to create scanners, parsers, and code generators. (Projects 1, 2, and 4)
 - Construct a complete working compiler for a small language. (Overall Project)
 
-## How to Get the Most Out of Class
+## Course Design
 
-To succeed in the class, you should attend all class meetings,
-take notes, and participate in class discussions.
-During most class sessions, I'll give a prepared lecture for about 30 minutes,
-and then we will shift into Q&amp;A or working on an example. 
+This course will be a mix of "low tech" and "high tech" components.
+Class time and written homeworks will be organized around "low tech"
+where you practice on paper and pencil to develop your mental muscles.
+Programming assignments will be "high tech" and permit the use of AI
+assistants for coding, building on what you learned from "low tech".
 
-The textbook is dense in places; sometimes a key algorithm may only occupy
+
+### Online Textbook
+
+First, do the assigned readings over the weekend prior to the Monday class.
+Note that the textbook is dense in places; sometimes a key algorithm may only occupy
 two pages in the book, but requires 30 minutes of class discussion
 to work out all the details.  So, it works best if you read the textbook
-for a broad understanding before class, and then go back and review details
-and work some examples afterward.
+slowly, taking careful notes, and then go back to review after class.
+
+### Class Meetings
+
+Plan to attend every meeting to the class and participate actively.
+During most class sessions, I'll give a prepared lecture for about 30 minutes,
+and then we will shift into Q&amp;A or working some example problems in small groups.
+You should plan to take notes with pen and paper, and be ready to work problems
+together on paper or on the board.
 
 Because much of the class material involves working with data structures
 and examples of algorithms, I will mostly work on the blackboard instead
-of presenting slide decks.  I recommend that you take notes by sketching
-along with pen and paper: the simple act of note-taking exercises your
-mental muscles in a way that passive observation does not.  If you prefer to
-take notes on your laptop or tablet, then that's fine too.
+of presenting slide decks.  You should take notes by sketching
+along with pen and paper: the physical act of note-taking exercises your
+mental muscles in a way that passive observation does not.
+If you prefer to take notes on your laptop or tablet, that is acceptable.
 
-However, I do ask that you refrain from using your laptops or phones
+Please refrain from using your laptops or phones
 for non-class related tasks during class time.  I know it is tempting
 during a brief lull to respond to messages, check the news, etc,
 but even one laptop open can be an unavoidable distraction for other
 people in the class.  Let's reserve this time for working together.
 
-Also note that this class is designed to be primarily an in-person
-learning experience.  Class recordings are a backup available if you
-are sick or otherwise excused.  But don't use recordings as a substitute
-for attending.
+Finally, note that **classes will not be recorded**, so plan accordingly.
+Our class meetings are primarily for discussion and practice using the
+available written materials, so if you miss class for whatever reason,
+then catch up by reviewing the available materials and talking with a peer.
+
+### Homeworks and Exams
+
+Homework assignments will be done in a "low tech" way, and must be written
+neatly **on paper by hand with a pen**, and turned in at the beginning of class
+on the date due. Homeworks are an
+opportunity to practice solving problems of the sort that you will encounter
+on the exams.  To that end, it is ok to work with other students in order
+to get "unstuck" on a tricky problem, as long as the end result is that
+you can do the work yourself.
+
+### Programming Assignments
+
+The main objective of the class is for you to build a compiler from scratch,
+translating the B-Minor language into X86 assembly language.  This will be
+a substantial software engineering effort in which you will build the compiler
+in five different stages, at each stage developing a set of thorough tests
+that evaluate the correct (and incorrect) behavior of the overall tool.
+
+Generative AI tools (e.g. ChatGPT, Gemini, Copilot, etc) **are permitted**
+when working on the programming assignments.  These tools are changing fast,
+and we are all still learning how to make best use of them, so consider
+this a learning opportunity.
+
+**However, you are still the engineer responsible for every aspect of the code that you produce!**
+Expect that you will need to spend substantial time thinking about and
+constructing tests, troubleshooting corner cases, and understanding error messages.
+This requires that you understand what the AI produces, and not just accept it blindly.
 
 ## Communications
 
 Assignments and the course schedule are available on the course website,
 and assignment grades will be posted in Canvas.
-We will be using Slack (\#compilers-fa23) to handle general Q&amp;A for the class.
+We will be using Slack (\#compilers-fa25) to handle general Q&amp;A for the class.
 If you have a technical question that could be of interest to others,
 please post it here, so that others can benefit from the answers.
 
