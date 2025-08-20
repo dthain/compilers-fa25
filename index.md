@@ -46,9 +46,10 @@ Reference
 <td>
 Aug 25
 <td>
-<a href=syllabus>Syllabus</a><br>
-<a href="https://dthain.github.io/books/compiler/chapter1.pdf">Chapter 1</a>, <a href="https://dthain.github.io/books/compiler/chapter2.pdf">Chapter 2</a><br>
-<a href="https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/">The &nbsp;Absolute&nbsp;Minimum...</a> 
+<li><a href=syllabus>Syllabus</a>
+<li><a href="https://dthain.github.io/books/compiler/chapter1.pdf">Chapter 1</a>
+<li><a href="https://dthain.github.io/books/compiler/chapter2.pdf">Chapter 2</a>
+<li><a href="https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/">The &nbsp;Absolute&nbsp;Minimum...</a>
 <td>
 Intro
 <td>
@@ -56,7 +57,7 @@ Overview
 <td>
 Regular Expressions
 <td>
-<a href="homework1">Homework 1</a>
+<a href="homework1">Homework&nbsp;1</a>
 <td>
 <a href="https://regex101.com/">Regex 101</a>
 
@@ -64,9 +65,9 @@ Regular Expressions
 <td>
 Sep 1
 <td>
-<a href="bminor">B-Minor&nbsp;2025</a><br>
-<a href="https://dthain.github.io/books/compiler/chapter3.pdf">Chapter 3</a><br>
-<a href="https://nee.lv/2021/02/28/How-I-cut-GTA-Online-loading-times-by-70/~">GTA&nbsp;Loading&nbsp;Time</a>
+<li><a href="bminor">B-Minor&nbsp;2025</a><br>
+<li><a href="https://dthain.github.io/books/compiler/chapter3.pdf">Chapter 3</a><br>
+<li><a href="https://nee.lv/2021/02/28/How-I-cut-GTA-Online-loading-times-by-70/~">GTA&nbsp;Loading&nbsp;Time</a>
 <td>
 RE->NFA
 <td>
@@ -202,7 +203,6 @@ Oct 27
 Nov 3
 <td>
 <a href="https://dthain.github.io/books/compiler/chapter7.pdf">Chapter 7</a>
-<td>
 <td>Checking Exprs
 <td>Checking Statements
 <td>Checking Decls
@@ -238,7 +238,7 @@ Nov 17
 Nov 24
 <td>
 <a href="https://dthain.github.io/books/compiler/chapter11.pdf">Chapter 11</a>
-<td>Codegen
+<td>Codegen Exprs
 <td><i>Thanksgiving</i>
 <td><i>Thanksgiving</i>
 <td>
@@ -248,18 +248,22 @@ Nov 24
 <td>
 Dec 1
 <td>
-<a href="https://dthain.github.io/books/compiler/chapter11.pdf">Chapter 11</a>
-<td>Codegen
-<td>Codegen
-<td>Codegen
+<a href="https://dthain.github.io/books/compiler/chapter12.pdf">Chapter 12</a>
+<td>Codegen Stmts
+<td>Codegen Decls
+<td>Optimization
 <td>
 <td>
 
 <tr>
 <td>
 Dec 8
+<td>
+<a href="https://dthain.github.io/books/compiler/chapter12.pdf">Chapter 12</a>
 <td> Optimization
 <td> Review<br>Codegen Due
 <td> <b>Final Exam</b><br><b>7:30-9:30PM</b>
 <td>
 <td>
+
+</table>
