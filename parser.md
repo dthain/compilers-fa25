@@ -1,3 +1,8 @@
+---
+layout: default
+title: Parser Assignment
+---
+
 ## Parser Assignment
 
 ## Objectives

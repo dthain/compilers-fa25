@@ -1,3 +1,8 @@
+---
+layout: default
+title: Floating Point Code Generation
+---
+
 # Floating Point Code Generation Handbook 
 
 ## Floating point overview

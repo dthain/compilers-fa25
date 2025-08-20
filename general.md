@@ -1,4 +1,9 @@
-# General Submission Instructions
+---
+layout: default
+title: General Instructions for Assignments
+---
+
+# General Instructions for Assignments
 
 ## Standard Build Environment
 

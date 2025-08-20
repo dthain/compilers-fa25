@@ -1,3 +1,8 @@
+---
+layout: default
+title: Syllabus
+---
+
 # Syllabus - CSE 40243/60243 - Compilers and Language Design - Fall 2025
 
 ## Instructors

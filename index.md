@@ -1,3 +1,8 @@
+---
+title: CSE 30341 - Compilers and Language design - Fall 2025
+layout: default
+---
+
 # CSE 40243 - Compilers and Language Design - Fall 2025
 
 MWF 9:30-10:20 in Cushing 303
@@ -75,10 +80,10 @@ NFA->DFA
 <td>
 Flex
 <td>
-<a href="encoder">Encoder Assignment</a>
+<b><a href="encoder">Encoder Due</a></b>
 <td>
-<a href="https://github.com/cooperative-computing-lab/cctools/blob/master/dttools/src/jx_parse.c#L254">Hand Scanner</a>  
-<a href="https://westes.github.io/flex/manual/">Flex Scanner Generator</a>
+<a href="https://github.com/cooperative-computing-lab/cctools/blob/master/dttools/src/jx_parse.c#L254">Hand&nbsp;Scanner</a><br>
+<a href="https://westes.github.io/flex/manual/">Flex&nbsp;Scanner&nbsp;Generator</a><br>
 
 <tr>
 <td>
@@ -92,10 +97,10 @@ CFGs
 <td>
 LL(1) Grammars
 <td>
-Homework 2
+<b>Homework 2</b>
 <td>
-<a href="https://web.stanford.edu/class/archive/cs/cs103/cs103.1156/tools/cfg/">CFG&nbsp;Tool</a>
-<a href="https://en.wikipedia.org/wiki/Comparison_of_parser_generators">Parser&nbsp;Generators</a>
+<a href="https://web.stanford.edu/class/archive/cs/cs103/cs103.1156/tools/cfg/">CFG&nbsp;Tool</a><br>
+<a href="https://en.wikipedia.org/wiki/Comparison_of_parser_generators">Parser&nbsp;Generators</a><br>
 
 <tr>
 <td>
@@ -109,7 +114,7 @@ Recursive Descent
 <td>
 LL(1) Table Parsing
 <td>
-Scanner Due
+<b>Scanner Due</b>
 <td>
 
 <tr>
@@ -124,7 +129,7 @@ LR(0) Automaton
 <td>
 SLR Parsing
 <td>
-Homework 3 Due
+<b>Homework 3 Due</b>
 <td>
 
 <tr>
@@ -139,7 +144,7 @@ Bison
 <td>
 Parsing B-Minor
 <td>
-Homework 4 Due
+<b>Homework 4 Due</b>
 <td>
 <a href="https://www.gnu.org/software/bison/manual/html_node/index.html">Bison&nbsp;Manual</a>
 <br>
@@ -157,7 +162,7 @@ AST
 <td>
 AST
 <td>
-Parser Due
+<b>Parser Due</b>
 <td>
 <a href="ast.html">AST Handout</a>
 
@@ -171,7 +176,8 @@ Printing
 <td>
 Printing
 <td>
-**Midterm Exam**
+<b>Midterm&nbsp;Exam</b>
+<td>
 <td>
 
 <tr>
@@ -187,6 +193,7 @@ Type Systems
 Name Resolution
 <td>
 Printer Due
+<td>
 
 <tr>
 <td>
@@ -206,7 +213,7 @@ Nov 3
 <td>Checking Exprs
 <td>Checking Statements
 <td>Checking Decls
-<td>Name Resolver Due
+<td><b>Resolver Due</b>
 <td>
 
 <tr>
@@ -217,7 +224,7 @@ Nov 10
 <td>Memory&nbsp;Org
 <td>Memory&nbsp;Org
 <td>Memory&nbsp;Org
-<td>Type Checker Due
+<td><b>Type Checker Due</b>
 <td>
 
 <tr>
@@ -261,11 +268,8 @@ Dec 8
 <td>
 <a href="https://dthain.github.io/books/compiler/chapter12.pdf">Chapter 12</a>
 <td> Optimization
-<td> Review<br>Codegen Due
+<td> Review<br><b>Codegen Due</b>
 <td> <b>Final Exam</b><br><b>7:30-9:30PM</b>
 <td>
 <td>
-</tr>
-
-</table>
 

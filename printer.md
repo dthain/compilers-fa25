@@ -1,3 +1,8 @@
+---
+layout: default
+title: Pretty-Printer Assignment
+---
+
 # Pretty-Printer
 
 ## Objectives

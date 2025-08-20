@@ -1,3 +1,8 @@
+---
+layout: default
+title: Code Generation Assignment
+---
+
 # Code Generation Assignment
 
 ## Objectives

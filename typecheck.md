@@ -1,3 +1,8 @@
+---
+layout: default
+title: Typechecking Assignment
+---
+
 # Typechecking Assignment
 
 ## Objectives

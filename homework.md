@@ -1,3 +1,8 @@
+---
+layout: default
+title: Homeworks
+---
+
 # CSE 40243 Homeworks - Fall 2025
 
 Written homework assignments should be submitted via Canvas.

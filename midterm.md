@@ -1,6 +1,12 @@
+---
+layout: default
+title: Midterm Exam
+
+---
+
 # Midterm Exam
 
-The midterm exam will be held on Friday, October 13th during the usual class time.
+The midterm exam will be held on Friday, October 17th during the usual class time.
 It will be closed book, and no calculators or phones are needed.
 The exam will cover chapters 1-5 in the book, and anything from the course
 project and homeworks is fair game.  Expect about four pages, each one covering a different problem.

@@ -1,6 +1,12 @@
+---
+layout: default
+title: Final Exam
+---
+
 # Final Exam
 
-The final exam will be held on Monday, November 11th 8-10AM in the usual classrom.
+The final exam will be held on Friday, December 12, 7:30PM, location TBA.
+
 It will be closed book, and no calculators or phones are needed.
 The exam will cover the entire book, and anything from the course
 project and homeworks is fair game.  Expect about six pages, each one covering a different topic.

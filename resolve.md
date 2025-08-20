@@ -1,4 +1,9 @@
-# Typechecking Assignment
+---
+layout: default
+title: Name Resolution Assignment
+---
+
+# Name Resolution Assignment
 
 ## Objectives
 

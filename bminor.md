@@ -1,3 +1,8 @@
+---
+layout: default
+title: B-Minor 2025 Language Overview
+---
+
 # B-Minor 2025 Language Overview
 
 **Note: The B-Minor language used in this class changes

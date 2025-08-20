@@ -1,3 +1,8 @@
+---
+layout: default
+title: Encoder Assignment
+---
+
 # Encoder Assignment
 
 For the first step of the compiler, you are going to write
