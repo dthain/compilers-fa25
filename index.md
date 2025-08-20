@@ -9,13 +9,39 @@ MWF 9:30-10:20 in Cushing 303
 
 ## Instructors
 
-|----|----|
-|![](images/dthain-small.jpg)| Prof. Douglas Thain (`dthain@nd.edu`)<br> Office Hours: TBA <br> Office: 384 Fitpatrick Hall|
+<table markdown="0">
+<tr>
+<td><img src="images/dthain-small.jpg" height=200/></td>
+<td> 
+Prof. Douglas Thain (<tt>dthain@nd.edu</tt>)<br>
+Office Hours: TBA<br>
+Office: 384 Fitpatrick Hall
+</td>
+</tr>
+<tr>
+<td><img src="images/pjohns24.jpg" height=200/></td>
+<td>
+TA: Prince Noah Johnson (<tt>pjohns24@nd.edu</tt>)<br>
+Office Hours: TBA<br>
+Office: CSE Student Commons
+</td>
+</tr>
+</table>
 
 ## Online Textbook
 
-|----|----|
-|![](images/compilerbook-small.jpg)| Douglas Thain,<br>Introduction to Compilers and Language Design,<br>2nd edition, 2021.<br>[http://compilerbook.org](http://compilerbook.org)
+<table markdown="0">
+<tr>
+<td><img src="images/compilerbook-small.jpg"></td>
+<td>
+Douglas Thain,<br>
+Introduction to Compilers and Language Design,<br>
+2nd edition, 2021.<br>
+<a href="http://compilerbook.org">http://compilerbook.org</a>
+</td>
+</tr>
+</table>
+
 
 ## Important Documents
 
@@ -29,7 +55,7 @@ MWF 9:30-10:20 in Cushing 303
 
 ## Course Schedule
 
-<table>
+<table markdown="0">
 
 <tr>
 <th>
@@ -80,7 +106,7 @@ NFA->DFA
 <td>
 Flex
 <td>
-<b><a href="encoder">Encoder Due</a></b>
+<strong><a href="encoder">Encoder Due</a></strong>
 <td>
 <a href="https://github.com/cooperative-computing-lab/cctools/blob/master/dttools/src/jx_parse.c#L254">Hand&nbsp;Scanner</a><br>
 <a href="https://westes.github.io/flex/manual/">Flex&nbsp;Scanner&nbsp;Generator</a><br>
@@ -97,7 +123,7 @@ CFGs
 <td>
 LL(1) Grammars
 <td>
-<b>Homework 2</b>
+<strong>Homework 2</strong>
 <td>
 <a href="https://web.stanford.edu/class/archive/cs/cs103/cs103.1156/tools/cfg/">CFG&nbsp;Tool</a><br>
 <a href="https://en.wikipedia.org/wiki/Comparison_of_parser_generators">Parser&nbsp;Generators</a><br>
@@ -114,7 +140,7 @@ Recursive Descent
 <td>
 LL(1) Table Parsing
 <td>
-<b>Scanner Due</b>
+<strong>Scanner Due</strong>
 <td>
 
 <tr>
@@ -129,7 +155,7 @@ LR(0) Automaton
 <td>
 SLR Parsing
 <td>
-<b>Homework 3 Due</b>
+<strong>Homework 3 Due</strong>
 <td>
 
 <tr>
@@ -144,7 +170,7 @@ Bison
 <td>
 Parsing B-Minor
 <td>
-<b>Homework 4 Due</b>
+<strong>Homework 4 Due</strong>
 <td>
 <a href="https://www.gnu.org/software/bison/manual/html_node/index.html">Bison&nbsp;Manual</a>
 <br>
@@ -162,7 +188,7 @@ AST
 <td>
 AST
 <td>
-<b>Parser Due</b>
+<strong>Parser Due</strong>
 <td>
 <a href="ast.html">AST Handout</a>
 
@@ -176,7 +202,7 @@ Printing
 <td>
 Printing
 <td>
-<b>Midterm&nbsp;Exam</b>
+<strong>Midterm&nbsp;Exam</strong>
 <td>
 <td>
 
@@ -213,7 +239,7 @@ Nov 3
 <td>Checking Exprs
 <td>Checking Statements
 <td>Checking Decls
-<td><b>Resolver Due</b>
+<td><strong>Resolver Due</strong>
 <td>
 
 <tr>
@@ -224,7 +250,7 @@ Nov 10
 <td>Memory&nbsp;Org
 <td>Memory&nbsp;Org
 <td>Memory&nbsp;Org
-<td><b>Type Checker Due</b>
+<td><strong>Type Checker Due</strong>
 <td>
 
 <tr>
@@ -268,8 +294,9 @@ Dec 8
 <td>
 <a href="https://dthain.github.io/books/compiler/chapter12.pdf">Chapter 12</a>
 <td> Optimization
-<td> Review<br><b>Codegen Due</b>
-<td> <b>Final Exam</b><br><b>7:30-9:30PM</b>
+<td> Review<br><strong>Codegen Due</strong>
+<td> <strong>Final Exam</strong><br><strong>7:30-9:30PM</strong>
 <td>
 <td>
 
+</table>
