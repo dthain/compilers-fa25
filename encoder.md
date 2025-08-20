@@ -17,7 +17,7 @@ just yet, but it's easier to add everything at the beginning.)
 
 Read the [B-Minor Specification](bminor.md) and carefully
 look at the definition of strings, which may contain ordinary
-characters, or a number of backslash codes.  When it encounters
+characters as well as a number of backslash codes.  When it encounters
 such a string, your compiler must convert it into an ordinary C string.
 
 Write two functions like this:
@@ -43,6 +43,7 @@ Then `string_decode` should convert it into this:
 ![](encode2.png)
 
 In a similar way, `string_encode` should reverse the process.
+This will be needed when taking the internal representing and displaying back out.
 
 ## Main Program
 
@@ -70,11 +71,11 @@ The way to ensure that your program meets its requirements is to
 generate a large number of test cases, and run them after making any change.
 
 To that end, we will require you to turn in twenty test cases
-at each step of the compiler.  (You are very welcome to write more than that!)
+at each step of the compiler.  (You are welcome and encouraged to write more than that!)
 Create ten files called `test/encode/good[0-9].bminor` each containing
 a valid B-minor string, and `test/encode/bad[0-9].bminor` each containing invalid
 strings.  Take some time to think carefully about the wide variety of possible
-good and bad cases.
+good and bad cases, and imagine how a user might accidentally provide incorrect input.
 
 The exit status of `bminor` is **very important** because it indicates to the caller whether the program succeeded or not.  The Unix convention is that the result of `main` (or the call to `exit`) should be zero to indicate success and non-zero to indicate failure.  We will use the program exit status to determine the correctness of your submissions and your test.
 
@@ -111,9 +112,17 @@ Now is the time to have a proper Makefile, and use it to build your compiler at 
 - `make clean` should remove all executables and object files.
 - `make test` should run all your test cases.
 
+## Development Log
+
+Create one more file in your repository (`devel.md`) which contains a development log.
+For each stage of the compiler, add a new section with a few thoughts on building this stage:
+- What AI tools did you use, and what sort of prompts did you provide?
+- What parts of the code were easily generated?
+- What parts were difficult to get right and required more effort?
+
 ## Turning In
 
-Be sure to `git add` and `git commit` all of your source files to your repository.  (Don't add object files, executables files, or anything else that is built from source files.)  Then review the [General Instructions for Turning In](general.md).  Make sure that your code is tagged as a release named `encoder`.
+Be sure to `git add` and `git commit` all of your files in your repository.  (Don't add object files, executables files, or anything else that is built from source files.)  Then review the [General Instructions for Turning In](general).  Make sure that your code is tagged as a release named `encoder`.
 
-**This assignment is due on Thursday, August 31st at 11:59PM  Late assignments are not accepted.**
+**This assignment is due on Monday, Sep 1st at 9:00AM Late assignments are not accepted.**
 
