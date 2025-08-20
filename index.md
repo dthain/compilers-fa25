@@ -24,6 +24,8 @@ MWF 9:30-10:20 in Cushing 303
 
 ## Course Schedule
 
+<table>
+
 <th>
 <td>
 Week
