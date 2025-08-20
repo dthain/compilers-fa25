@@ -26,24 +26,21 @@ in the job market or graduate studies.
 
 [http://dthain.github.io/compilers-fa25](http://dthain.github.io/compilers-fa25)
 
-## Textbook
+## Textbooks
 
-- Print: [Douglas Thain, Introduction to Compilers and Language Design, 2nd edition, 2021.](http://compilerbook.org)
-- Online: `compilerbook.org`
-
-## Suggested References
-- Aho, Lam, Sethi, Ullman, "Compilers: Principles, Techniques, and Tools", Pearson, 2007.
-- [Intel Corp, "Intel-64 and IA-32 Architectures Software Developer's Manuals", 2015](https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html)
+- Required: [Douglas Thain, Introduction to Compilers and Language Design, 2nd edition, 2021.](http://compilerbook.org)
+- Reference: Aho, Lam, Sethi, Ullman, "Compilers: Principles, Techniques, and Tools", Pearson, 2007.
+- Reference: [Intel Corp, "Intel-64 and IA-32 Architectures Software Developer's Manuals", 2015](https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html)
 
 ## Course Goals and Evaluation
 
-- Discuss the role and limitations of the compiler in a computer system. (Midterm, Final)
-- Create and analyze finite state automata for lexical analysis. (Project 1, Midterm, Homework 1)
-- Create and analyze parsing algorithms for common catetgories of grammars. (Project 2, Midterm, Homework 2)
-- Apply type theory to find bugs in compiled programs. (Project 3, Midterm and/or Final)
+- Discuss the role and limitations of the compiler in a computer system. (Homework 1, Midterm, Final)
+- Create and analyze finite state automata for lexical analysis. (Homework 2, Scanner, Midterm)
+- Create and analyze parsing algorithms for common catetgories of grammars. (Homework 3, Project 2, Midterm)
+- Apply type theory to find bugs in compiled programs. (Project 3, Midterm,  Final)
 - Create and analyze direct and pattern-matching code generators. (Project 4, Final)
 - Understand and apply basic optimization techniques. (Final)
-- Employ standard tools to create scanners, parsers, and code generators. (Projects 1, 2, and 4)
+- Employ standard tools to create scanners, parsers, and code generators. (Projects 2, 3, and 5)
 - Construct a complete working compiler for a small language. (Overall Project)
 
 ## Course Design
@@ -109,11 +106,12 @@ that evaluate the correct (and incorrect) behavior of the overall tool.
 Generative AI tools (e.g. ChatGPT, Gemini, Copilot, etc) are **permitted**
 when working on the programming assignments.  These tools are changing quickly
 and we are all still learning how to make best use of them, so consider
-this a learning opportunity.
+this a learning opportunity.  You must document any use of AI tools in the
+"development log" that is part of every coding assignment.
 
-**However, you are still the engineer responsible for every aspect of the code that you produce.**
-My experience so far with these tools suggests that they are good at scaffold and getting started
-with a project, but tend to get confused in the fine details. 
+**In any case, you remain the engineer responsible for every aspect of the code that you produce.**
+My experience so far with these tools suggests that they are good at scaffolding and getting started
+with a project, but tend to get confused when code reaches a certain level of complexity. 
 Expect that you will need to spend substantial time thinking about and
 constructing tests, troubleshooting corner cases, and understanding error messages.
 This requires that you understand what the AI produces, and not just accept it blindly.
@@ -142,22 +140,26 @@ see if we can work out another time.
 
 ## Grading Policies
 
-Written homeworks will be submitted as PDFs or images on Canvas,
-and programming assignments must be pushed to your private github
-repository by the deadline.  Both are due **before 11:59PM** on the date due.
+All assignments must be submitted by 9:30AM on the date due (usually Fridays).
+Written homeworks must be done by hand using paper and pen and turned in
+at the beginning of class.  (One or two homeworks will be online PDFs instead.)
+Programming assignments must be pushed to your private github repository and tagged by the same deadline.
 
-**Late assignments will receive no credit.**
-You are free to turn in programming assignments
-multiple times before the deadline expires, so it
-would be a good habit to turn in your partial work
-on a daily basis, so as to ensure something is submitted.
+**Late assignments will receive no credit.**  Everything in this class builds
+up piece by piece, and it's important to stay on track.  If some assignment isn't
+working out perfectly, it's usally best to submit what you have on time, and keep moving.
 
-Exceptions will only be made for serious circumstances
-such as an extended illness, death in the family,
+You are permitted **one free late pass* to account for the ordinary circumstances of
+life, such as a minor illness, schedule conflict, etc.  To do so, just
+send an email to the TA **before the deadline**, saying briefly "I would like to take a late pass on assignment X".
+And the due date for that item will be extended by seven calendar days.
+(Sorry, you can't use a late pass on the final assignment.)
+
+Beyond that, exceptions will only be made for serious circumstances
+such as a hospitalization, death in the family,
 mandatory participation in a university sponsored event,
 or the other items outlined in section 3.1 of the Undergraduate Academic Code.
-In those cases, please confer with the instructor at the earliest possibility,
-and we will make alternate arrangements.
+In those cases, please confer with the instructor at the earliest possibility.
 
 For each assignment, a numeric grade will be awarded.
 Throughout the semester, grades and class averages will be posted through Sakai.
@@ -169,15 +171,12 @@ If you believe that an error has been made in grading an item,
 please bring it to the attention of the person who graded it
 (usually the TA) within seven days. Mistakes do occasionally
 happen in grading, so factual and clerical errors will be
-cheerfully corrected.  Matters of judgement are reserved to the grader.
-If, after talking to the grader, you are unconvinced,
+cheerfully corrected.  Matters of judgement are reserved to the TA.
+If, after talking to the TA, you are unconvinced,
 you can bring it up with Prof. Thain.
 
-For undergraduate students in CSE 40243, grades are weighted as follows:
-Homeworks 15%, Code Assignments 55%, Midterm 15%, Final 15%.
-
-For graduate students in CSE 60243, grades are weighted as follows:
-Homeworks 10%, Code Assignments 50%, Paper 10%, Midterm 15%, Final 15%.
+grades are weighted as follows:
+Written Homeworks 20%, Programming Assignments 40%, Midterm 20%, Final 20%.
 
 ## Academic Code of Honor
 
@@ -186,17 +185,17 @@ which states:
 
 *As a member of the Notre Dame community, I acknowledge that it is my responsibility to learn and abide by principles of intellectual honesty and academic integrity, and therefore I will not participate in or tolerate academic dishonesty.*
 
-The purpose of the homeworks and assignments in this course is for each student
+The purpose of the homeworks and assignments in this course is for you
 to gain the discipline and skills in analysis, design, and programming so that
-they will be able to work independently in a professional setting.
-To that end, all exams, homeworks, and programming assignments are to be completed individually.
-Each student must write their own code from scratch with their own hands
-based on their own understanding of the course material.
+you will be able to work independently in a professional setting.
+To that end, all work in this class must be the result of your own ideas and effort.
 
-- You **may** consult with other students and outside resources in order to
-better understand concepts and techniques, or to debug localized problems.
-- You **may not** copy code from another student or resource (or AI assistant!),
-excepting the "starter code" provided by the instructor.
+You are permitted to consult with other students, search engines,
+and AI assistants in order to find documentation, troubleshoot technical
+problems, and generally get "unstuck" after making your own efforts.
+However, the outcome of such consultation must
+be that you understand *what it means* and *how to do it yourself*.
+You remain responsible for all work that bears your name.
 
 ## Some Campus Resources
 
