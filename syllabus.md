@@ -7,28 +7,20 @@
 
 ## Overview
 
-This class will introduce students to the theory and practice of compilers.
-Students will construct a working compiler
-that transforms C into x86 assembly.  This project will proceed in five
-steps, requiring the construction of a scanner, parser, type checker,
-source translator, and code generator.   More theoretical topics will
-be explored in lectures and written assignments and evaluated in exams.
+This class will introduce you to the theory and practice of compilers,
+and explore how high level language design affects the inner workings of a system.
+The main goal is for you to construct a working compiler
+that transforms a C-like language into X86 assembly.  This project will proceed in five
+steps, requiring the construction of a scanner, parser, printer, type checker,
+and code generator. Key theoretical topics will be explored through written assignments
+and evaluated in exams.
 
 This will be a fun and challenging course for advanced undergraduate students.
 Compilers cover a broad array of topics in computer
 science, ranging from the abstract theory of automata to the very practical details of assembly languages.
-You  will gain experience with tools and techniques for software engineering.
-Students completing this course will gain a broad range of skills valuable
-in both the job market and in graduate studies.
-
-The textbook is online at `compilerbook.org` and you are welcome to download 
-PDFs for online reading, or purchase a hard copy online.
-Make a habit of reading the appropriate chapter over the weekend before
-Monday's lecture begins.
-
-Note there are still a few typos lurking here and there in the book,
-and I will grant a little extra credit (1/10th of a point) for each typo
-correctly reported and fixed, up to a maximum of 10 points.  Read carefully!
+You will gain experience with tools and techniques for software engineering.
+Computing this course will help you to develop a broad range of skills valuable
+in the job market or graduate studies.
 
 ## Course Web Page
 
@@ -60,8 +52,7 @@ This course will be a mix of "low tech" and "high tech" components.
 Class time and written homeworks will be organized around "low tech"
 where you practice on paper and pencil to develop your mental muscles.
 Programming assignments will be "high tech" and permit the use of AI
-assistants for coding, building on what you learned from "low tech".
-
+assistants for coding, building on what you learned from "low tech" skills.
 
 ### Online Textbook
 
@@ -92,7 +83,7 @@ during a brief lull to respond to messages, check the news, etc,
 but even one laptop open can be an unavoidable distraction for other
 people in the class.  Let's reserve this time for working together.
 
-Finally, note that **classes will not be recorded**, so plan accordingly.
+Note that **classes will not be recorded**, so plan accordingly.
 Our class meetings are primarily for discussion and practice using the
 available written materials, so if you miss class for whatever reason,
 then catch up by reviewing the available materials and talking with a peer.
@@ -101,11 +92,11 @@ then catch up by reviewing the available materials and talking with a peer.
 
 Homework assignments will be done in a "low tech" way, and must be written
 neatly **on paper by hand with a pen**, and turned in at the beginning of class
-on the date due. Homeworks are an
-opportunity to practice solving problems of the sort that you will encounter
-on the exams.  To that end, it is ok to work with other students in order
-to get "unstuck" on a tricky problem, as long as the end result is that
-you can do the work yourself.
+on the date due. Homeworks are an opportunity for you to practice solving problems
+of the sort that you will encounter on the exams.  To that end, it is ok to work
+with other students in order to get "unstuck" on a tricky problem,
+as long as the end result is that you understand the material and are able to solve
+problems on your own.
 
 ### Programming Assignments
 
@@ -115,12 +106,14 @@ a substantial software engineering effort in which you will build the compiler
 in five different stages, at each stage developing a set of thorough tests
 that evaluate the correct (and incorrect) behavior of the overall tool.
 
-Generative AI tools (e.g. ChatGPT, Gemini, Copilot, etc) **are permitted**
-when working on the programming assignments.  These tools are changing fast,
+Generative AI tools (e.g. ChatGPT, Gemini, Copilot, etc) are **permitted**
+when working on the programming assignments.  These tools are changing quickly
 and we are all still learning how to make best use of them, so consider
 this a learning opportunity.
 
-**However, you are still the engineer responsible for every aspect of the code that you produce!**
+**However, you are still the engineer responsible for every aspect of the code that you produce.**
+My experience so far with these tools suggests that they are good at scaffold and getting started
+with a project, but tend to get confused in the fine details. 
 Expect that you will need to spend substantial time thinking about and
 constructing tests, troubleshooting corner cases, and understanding error messages.
 This requires that you understand what the AI produces, and not just accept it blindly.

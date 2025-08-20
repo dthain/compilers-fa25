@@ -191,9 +191,9 @@ Printer Due
 <td>
 Oct 27
 <td>
-<td><i>Fall Break</i>
-<td><i>Fall Break</i>
-<td><i>Fall Break</i>
+<td><i>Fall&nbsp;Break</i>
+<td><i>Fall&nbsp;Break</i>
+<td><i>Fall&nbsp;Break</i>
 <td>
 <td>
 
@@ -214,9 +214,9 @@ Nov 3
 Nov 10
 <td>
 <a href="https://dthain.github.io/books/compiler/chapter9.pdf">Chapter 9</a>
-<td>Memory Org
-<td>Memory Org
-<td>Memory Org
+<td>Memory&nbsp;Org
+<td>Memory&nbsp;Org
+<td>Memory&nbsp;Org
 <td>Type Checker Due
 <td>
 
