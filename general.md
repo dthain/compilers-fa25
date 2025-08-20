@@ -16,20 +16,19 @@ student machines.  Your work will be graded on those machines.**
 
 ## Code Organization
 
-To ensure that you get off on the right foott (and we are able to understand your code)
-you are required to use the standard [starter code](http://github.com/dthain/compilerbook-starter-code)
+To ensure that you get off on the right foot (and we are able to understand your code)
+you must use the standard [starter code](http://github.com/dthain/compilerbook-starter-code)
 which defines structures like `decl`, `expr` and so forth.  You are welcome to add files,
 fields, and functions as you like, as long as the general purpose of these structures remains.
 
 Your code must include a `Makefile` such that when you type `make`, the entire compiler (so far)
 is built and produces a program called `bminor`. Each assignment page will specify what arguments are required to call it.
 Likewise, `make clean` should remove all intermediate object files, automatically generated code, and so forth.
+`make test` should run all your tests for all stages developed so far.
 
-## Getting Started with Git
+## Git Setup
 
-[Git](https://git-scm.com/) is a version control tool that allows you to save and collaborate on programming projects. In Git, your code is saved in two different locations--the local copy and the remote copy.
-
-### Make a Remote Copy
+### Make The Remote Copy
 
 1) First make sure you are logged into Github then go to the [starter code](http://github.com/dthain/compilerbook-starter-code) and click the green "use this template" button. If you don't see the button you likely aren't logged in.
 
@@ -37,14 +36,14 @@ Likewise, `make clean` should remove all intermediate object files, automaticall
 
 3) Make sure your repository is **PRIVATE** not public, then click the green "Create repository from template" button.
 
-5) Go into your repository settings on the right side of the screen then click on "Collaborators". Add `colinthomas-z80`, `David-Simonetti-ND` and `dthain` as contributors, so that we can see and grade your submission.
+5) Go into your repository settings on the right side of the screen then click on "Collaborators". Add `dthain` and `XXX` as contributors, so that we can see and grade your submission.
 
 7) Go back to the repository main page and click the green "code" button then copy the URL under the "SSH" tab. The URL should look something like this:
 `git@github.com:YOURNAME/YOURNAME-compiler.git`. If you see a yellow box asking you to create public ssh keys, follow the instructions to do so.
 
 ### Tell Us About the Remote Copy
 
-1) Use [this form](https://forms.gle/DsLqr4zGxV54L6g48) to give use the URL of your repository.  (Just do this once for the first assignment.)
+1) Use [this form](https://docs.google.com/forms/d/e/1FAIpQLScfiEL4BDUMSsnTogX7KmjS9FaseEdfpcRLcjx-o_FiLEdU7Q/viewform?usp=dialog) to give use the URL of your repository.  (Just do this once for the cfirst assignment.)
 
 ### Make a Local Copy
 
@@ -61,7 +60,7 @@ Likewise, `make clean` should remove all intermediate object files, automaticall
 
 6) Run `git push -u origin master` 
 
-## Turning In Code to Github
+## Turning In Code
 
 1) Make sure that all files that you have changed are added with `git add`, committed with `git commit`, and pushed with `git push`.
 
@@ -81,6 +80,7 @@ There are two ways to check your submission: on GitHub and locally.
 To double check your submission on GitHub, you can navigate to the repository on GitHub and make sure the files you changed locally are also changed on GitHub.
 
 ### Locally
+
 To double check your submission locally:
 
 1) Copy the url of your GitHub repository
