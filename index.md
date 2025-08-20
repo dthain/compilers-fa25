@@ -51,7 +51,7 @@ Aug 25
 <li><a href=syllabus>Syllabus</a>
 <li><a href="https://dthain.github.io/books/compiler/chapter1.pdf">Chapter 1</a>
 <li><a href="https://dthain.github.io/books/compiler/chapter2.pdf">Chapter 2</a>
-<li><a href="https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/">The &nbsp;Absolute&nbsp;Minimum...</a>
+<li><a href="https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/">The&nbsp;Absolute&nbsp;Minimum...</a>
 <td>
 Intro
 <td>
@@ -67,9 +67,9 @@ Regular Expressions
 <td>
 Sep 1
 <td>
-<li><a href="bminor">B-Minor&nbsp;2025</a><br>
 <li><a href="https://dthain.github.io/books/compiler/chapter3.pdf">Chapter 3</a><br>
-<li><a href="https://nee.lv/2021/02/28/How-I-cut-GTA-Online-loading-times-by-70/~">GTA&nbsp;Loading&nbsp;Time</a>
+<li><a href="bminor">B-Minor&nbsp;2025</a><br>
+<li><a href="https://nee.lv/2021/02/28/How-I-cut-GTA-Online-loading-times-by-70/">GTA&nbsp;Loading&nbsp;Time</a>
 <td>
 RE->NFA
 <td>
