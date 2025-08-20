@@ -46,9 +46,9 @@ Reference
 <td>
 Aug 25
 <td>
-[Syllabus](syllabus)<br>
-[Chapter 1](https://dthain.github.io/books/compiler/chapter1.pdf), [Chapter 2](https://dthain.github.io/books/compiler/chapter2.pdf)<br>
-[The Absolute Minimum...](https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/) 
+<a href=syllabus>Syllabus</a><br>
+<a href="https://dthain.github.io/books/compiler/chapter1.pdf">Chapter 1</a>, <a href="https://dthain.github.io/books/compiler/chapter2.pdf">Chapter 2</a><br>
+<a href="https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/">The Absolute Minimum...</a> 
 <td>
 Intro
 <td>
@@ -56,17 +56,17 @@ Overview
 <td>
 Regular Expressions
 <td>
-[Homework 1](homework1)
+<a href="homework1">Homework 1</a>
 <td>
-[Regex 101](https://regex101.com/)
+<a href="https://regex101.com/">Regex 101</a>
 
 <tr>
 <td>
 Sep 1
 <td>
-[B-Minor 2025 Overview](bminor)<br>
-[Chapter 3](https://dthain.github.io/books/compiler/chapter3.pdf)<br>
-[GTA Loading Time](https://nee.lv/2021/02/28/How-I-cut-GTA-Online-loading-times-by-70/~)
+<a href="bminor">B-Minor 2025 Overview</a><br>
+<a href="https://dthain.github.io/books/compiler/chapter3.pdf">Chapter 3</a><br>
+<a href="https://nee.lv/2021/02/28/How-I-cut-GTA-Online-loading-times-by-70/~">GTA Loading Time</a>
 <td>
 RE->NFA
 <td>
@@ -74,16 +74,16 @@ NFA->DFA
 <td>
 Flex
 <td>
-[Encoder Assignment](encoder)
+<a href="encoder">Encoder Assignment</a>
 <td>
-[Hand Scanner](https://github.com/cooperative-computing-lab/cctools/blob/master/dttools/src/jx_parse.c#L254)  
-[Flex Scanner Generator](https://westes.github.io/flex/manual/)
+<a href="https://github.com/cooperative-computing-lab/cctools/blob/master/dttools/src/jx_parse.c#L254">Hand Scanner</a>  
+<a href="https://westes.github.io/flex/manual/">Flex Scanner Generator</a>
 
 <tr>
 <td>
 Sep 8
 <td>
-[Chapter 4.1-4.2](https://dthain.github.io/books/compiler/chapter4.pdf)
+<a href="https://dthain.github.io/books/compiler/chapter4.pdf">Chapter 4.1-4.2</a>
 <td>
 CFGs
 <td>
@@ -93,14 +93,14 @@ LL(1) Grammars
 <td>
 Homework 2
 <td>
-[CFG Tool](https://web.stanford.edu/class/archive/cs/cs103/cs103.1156/tools/cfg/)
-[List of Parser Generators](https://en.wikipedia.org/wiki/Comparison_of_parser_generators)
+<a href="https://web.stanford.edu/class/archive/cs/cs103/cs103.1156/tools/cfg/">CFG Tool</a>
+<a href="https://en.wikipedia.org/wiki/Comparison_of_parser_generators">List of Parser Generators</a>
 
 <tr>
 <td>
 Sep 15
 <td>
-[Chapter 4.2-4.3](https://dthain.github.io/books/compiler/chapter4.pdf)
+<a href="https://dthain.github.io/books/compiler/chapter4.pdf">Chapter 4.2-4.3</a>
 <td>
 LL(1) Grammars
 <td>
@@ -115,7 +115,7 @@ Scanner Due
 <td>
 Sep 22
 <td>
-[Chapter - 4.4-4.6](https://dthain.github.io/books/compiler/chapter4.pdf)
+<a href="https://dthain.github.io/books/compiler/chapter4.pdf">Chapter - 4.4-4.6</a>
 <td>
 Shift-Reduce Parsing
 <td>
@@ -130,7 +130,7 @@ Homework 3 Due
 <td>
 Sep 29
 <td>
-[Chapter 5](https://dthain.github.io/books/compiler/chapter5.pdf)
+<a href="https://dthain.github.io/books/compiler/chapter5.pdf">Chapter 5</a>
 <td>
 LR(1) Parsing
 <td>
@@ -140,15 +140,15 @@ Parsing B-Minor
 <td>
 Homework 4 Due
 <td>
-[Bison Manual](https://www.gnu.org/software/bison/manual/html_node/index.html)
+<a href="https://www.gnu.org/software/bison/manual/html_node/index.html">Bison Manual</a>
 <br>
-[Bison Examples](https://github.com/dthain/compilerbook-examples/tree/master/chapter5)
+<a href="https://github.com/dthain/compilerbook-examples/tree/master/chapter5">Bison Examples</a>
 
 <tr>
 <td>
 Oct 6
 <td>
-[Chapter 5](https://dthain.github.io/books/compiler/chapter5.pdf)
+<a href="https://dthain.github.io/books/compiler/chapter5.pdf">Chapter 5</a>
 <td>
 Parsing B-Minor
 <td>
@@ -158,13 +158,13 @@ AST
 <td>
 Parser Due
 <td>
-[AST Handout](ast.html)
+<a href="ast.html">AST Handout</a>
 
 <tr>
 <td>
 Oct 13
 <td>
-[Chapter 6](https://dthain.github.io/books/compiler/chapter6.pdf)
+<a href="https://dthain.github.io/books/compiler/chapter6.pdf">Chapter 6</a>
 <td>
 Printing
 <td>
@@ -177,7 +177,7 @@ Midterm Exam
 <td>
 Oct 20
 <td>
-[Chapter 7](https://dthain.github.io/books/compiler/chapter7.pdf)
+<a href="https://dthain.github.io/books/compiler/chapter7.pdf">Chapter 7</a>
 <td>
 Type Systems
 <td>
@@ -201,7 +201,7 @@ Oct 27
 <td>
 Nov 3
 <td>
-[Chapter 7](https://dthain.github.io/books/compiler/chapter7.pdf)
+<a href="https://dthain.github.io/books/compiler/chapter7.pdf">Chapter 7</a>
 <td>
 <td>Checking Exprs
 <td>Checking Statements
@@ -213,7 +213,7 @@ Nov 3
 <td>
 Nov 10
 <td>
-[Chapter 9](https://dthain.github.io/books/compiler/chapter9.pdf)
+<a href="https://dthain.github.io/books/compiler/chapter9.pdf">Chapter 9</a>
 <td>Memory Org
 <td>Memory Org
 <td>Memory Org
@@ -224,21 +224,21 @@ Nov 10
 <td>
 Nov 17
 <td>
-[Chapter 10](https://dthain.github.io/books/compiler/chapter10.pdf)
+<a href="https://dthain.github.io/books/compiler/chapter10.pdf">Chapter 10</a>
 Ch 10
 <td>Assembly
 <td>Assembly
 <td>Assembly
 <td>
-<td>[Intel Manuals](https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html)
+<td><a href="https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html">Intel Manuals</a>
 <br>
-[Calling Convention](https://refspecs.linuxbase.org/elf/x86_64-abi-0.99.pdf)
+<a href="https://refspecs.linuxbase.org/elf/x86_64-abi-0.99.pdf">Calling Convention</a>
 
 <tr>
 <td>
 Nov 24
 <td>
-[Chapter 11](https://dthain.github.io/books/compiler/chapter11.pdf)
+<a href="https://dthain.github.io/books/compiler/chapter11.pdf">Chapter 11</a>
 <td>Codegen
 <td>*Thanksgiving*
 <td>*Thanksgiving*
@@ -249,7 +249,7 @@ Nov 24
 <td>
 Dec 1
 <td>
-[Chapter 11](https://dthain.github.io/books/compiler/chapter11.pdf)
+<a href="https://dthain.github.io/books/compiler/chapter11.pdf">Chapter 11</a>
 <td>Codegen
 <td>Codegen
 <td>Codegen
@@ -264,4 +264,3 @@ Dec 8
 <td> **Final Exam**<br>**7:30-9:30PM**
 <td>
 <td>
-</table>
