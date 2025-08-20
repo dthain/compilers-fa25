@@ -24,8 +24,6 @@ MWF 9:30-10:20 in Cushing 303
 
 ## Course Schedule
 
-<font size=-1>
-
 <table>
 
 <tr>
@@ -173,7 +171,7 @@ Printing
 <td>
 Printing
 <td>
-Midterm Exam
+**Midterm Exam**
 <td>
 
 <tr>
@@ -267,7 +265,7 @@ Dec 8
 <td> <b>Final Exam</b><br><b>7:30-9:30PM</b>
 <td>
 <td>
+</tr>
 
 </table>
 
-</font>
