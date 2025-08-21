@@ -82,13 +82,13 @@ Aug 25
 <li><a href="https://dthain.github.io/books/compiler/chapter2.pdf">Chapter 2</a>
 <li><a href="https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/">The&nbsp;Absolute&nbsp;Minimum...</a>
 <td>
-Intro
-<td>
 Overview
+<td>
+Compiler Stages
 <td>
 Regular Expressions
 <td>
-<a href="homework1">Homework&nbsp;1</a>
+<strong><a href="homework1">Homework&nbsp;1</a></strong>
 <td>
 <a href="https://regex101.com/">Regex 101</a>
 
@@ -155,7 +155,7 @@ LR(0) Automaton
 <td>
 SLR Parsing
 <td>
-<strong>Homework 3 Due</strong>
+<strong>Homework 3</strong>
 <td>
 
 <tr>
@@ -170,7 +170,7 @@ Bison
 <td>
 Parsing B-Minor
 <td>
-<strong>Homework 4 Due</strong>
+<strong>Homework 4</strong>
 <td>
 <a href="https://www.gnu.org/software/bison/manual/html_node/index.html">Bison&nbsp;Manual</a>
 <br>
