@@ -19,7 +19,6 @@ that transforms a C-like language into X86 assembly.  This project will proceed 
 steps, requiring the construction of a scanner, parser, printer, type checker,
 and code generator. Key theoretical topics will be explored through written assignments
 and evaluated in exams.
-
 This will be a fun and challenging course for advanced undergraduate students.
 Compilers cover a broad array of topics in computer
 science, ranging from the abstract theory of automata to the very practical details of assembly languages.
@@ -58,7 +57,7 @@ assistants for coding, building on what you learned from "low tech" skills.
 
 ### Online Textbook
 
-First, do the assigned readings over the weekend prior to the Monday class.
+First, do the assigned readings (usually one chapter and one online article) over the weekend prior to the Monday class.
 Note that the textbook is dense in places; sometimes a key algorithm may only occupy
 two pages in the book, but requires 30 minutes of class discussion
 to work out all the details.  So, it works best if you read the textbook
@@ -88,16 +87,17 @@ people in the class.  Let's reserve this time for working together.
 Note that **classes will not be recorded**, so plan accordingly.
 Our class meetings are primarily for discussion and practice using the
 available written materials, so if you miss class for whatever reason,
-then catch up by reviewing the available materials and talking with a peer.
+then catch up by reviewing the written materials and talking with a peer.
 
 ### Homeworks and Exams
 
 Homework assignments will be done in a "low tech" way, and must be written
-neatly **on paper by hand with a pen**, and turned in at the beginning of class
+neatly **by hand on paper with a pen**, and turned in at the beginning of class
 on the date due. Homeworks are an opportunity for you to practice solving problems
-of the sort that you will encounter on the exams.  To that end, it is ok to work
-with other students in order to get "unstuck" on a tricky problem,
-as long as the end result is that you understand the material and are able to solve
+of the sort that you will encounter on the exams.  You should start by working
+on problems by yourself, but if you are stuck after making a reasonable effort,
+then it is ok to work with other students to get "unstuck".  The end result
+should be that understand the material and are able to solve
 problems on your own.
 
 ### Programming Assignments
@@ -108,18 +108,18 @@ a substantial software engineering effort in which you will build the compiler
 in five different stages, at each stage developing a set of thorough tests
 that evaluate the correct (and incorrect) behavior of the overall tool.
 
-Generative AI tools (e.g. ChatGPT, Gemini, Copilot, etc) are **permitted**
+Generative AI tools (e.g. ChatGPT, Gemini, Copilot, etc) are permitted
 when working on the programming assignments.  These tools are changing quickly
 and we are all still learning how to make best use of them, so consider
 this a learning opportunity.  You must document any use of AI tools in the
 "development log" that is part of every coding assignment.
 
-**In any case, you remain the engineer responsible for every aspect of the code that you produce.**
+**In any case, you remain the engineer responsible for every aspect of the code an data that you produce.**
 My experience so far with these tools suggests that they are good at scaffolding and getting started
 with a project, but tend to get confused when code reaches a certain level of complexity. 
 Expect that you will need to spend substantial time thinking about and
 constructing tests, troubleshooting corner cases, and understanding error messages.
-This requires that you understand what the AI produces, and not just accept it blindly.
+This requires that you understand in detail what the AI produces, and not just accept it blindly.
 
 ## Communications
 
@@ -158,7 +158,7 @@ You are permitted **one free late pass** to account for the ordinary circumstanc
 life, such as a minor illness, schedule conflict, etc.  To do so, just
 send an email to the TA **before the deadline**, saying briefly "I would like to take a late pass on assignment X".
 And the due date for that item will be extended by seven calendar days.
-(Sorry, you can't use a late pass on the final assignment.)
+(Naturally, you can't use a late pass on the exams or the final assignment.)
 
 Beyond that, exceptions will only be made for serious circumstances
 such as a hospitalization, death in the family,
