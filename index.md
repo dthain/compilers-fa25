@@ -45,7 +45,7 @@ Introduction to Compilers and Language Design,<br>
 
 ## Important Documents
 
-- [Course Syllabus](syllabus.md)
+- [Course Syllabus](syllabus)
 - [Slack Channel](https://nd-cse.slack.com/channels/compilers-fa25)
 - [Online Textbook](http://compilerbook.org)
 - [Canvas Course Page](https://canvas.nd.edu/courses/124956)

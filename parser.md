@@ -18,12 +18,12 @@ The objectives of this assignment are:
 The next step in building a compiler is to construct a parser.
 You will build upon the code from previous assignments and
 use the [Bison Parser Generator](http://www.gnu.org/software/bison/manual)
-to create a parser for [B-Minor Language](bminor.md).
+to create a parser for [B-Minor Language](bminor).
 It is up to you to carefully read this document and decide what all of the
 relevant elements of B-Minor are.  Make sure that you include declarations,
 definitions, statements, expressions, and any other program elements.
 
-Make sure that you follow the [general instructions](general.md) for assignments,
+Make sure that you follow the [general instructions](general) for assignments,
 so that your work runs correctly on the student machines.  We want you to 
 have the benefit of using exactly the environment in which your work will be graded.
 
@@ -99,7 +99,7 @@ Ensure that `make clean`, `make`, and `make test`, and continue to work properly
 
 ## Grading
 
-To turn in via github, please review the [general instructions for turning in](general.md).   Make sure that your code is tagged as a release named `parser`.
+To turn in via github, please review the [general instructions for turning in](general).   Make sure that your code is tagged as a release named `parser`.
 
 For this assignment, your grade will be based upon the following:
 -  (20 points) General correctness of the code.
@@ -112,4 +112,4 @@ This assignment is due on **Wednesday, October 11th at 11:59PM**.  Late assignme
 
 ## Frequently Asked Questions
 
-See the bottom of the [B-Minor Language Guide](bminor.md) for some FAQs about parsing.
+See the bottom of the [B-Minor Language Guide](bminor) for some FAQs about parsing.

@@ -23,7 +23,7 @@ much like the tool `/usr/bin/indent`.
 
 ## Requirements
 
-Please review the [general instructions](general.md) for assignments.
+Please review the [general instructions](general) for assignments.
 To keep the class reasonably synchronized, you must use the
 [B-Minor Starter Code](https://github.com/dthain-courses/compiler-starter-code) as the basis for the AST, although you are welcome
 to add or adjust fields in the structures as necessary.
@@ -168,5 +168,5 @@ This assignment is due **Monday, October 30th at 11:59PM**.  Late assignments ar
 
 ## Frequently Asked Questions
 
-See the bottom of the [B-Minor Language Guide](bminor.md) for some FAQs about printing.
+See the bottom of the [B-Minor Language Guide](bminor) for some FAQs about printing.
 

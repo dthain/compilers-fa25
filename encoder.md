@@ -20,7 +20,7 @@ just yet, but it's easier to add everything at the beginning.)
 
 ## Encode/Decode Functions
 
-Read the [B-Minor Specification](bminor.md) and carefully
+Read the [B-Minor Specification](bminor) and carefully
 look at the definition of strings, which may contain ordinary
 characters as well as a number of backslash codes.  When it encounters
 such a string, your compiler must convert it into an ordinary C string.

@@ -26,7 +26,7 @@ expression and ensure that it is compatible with its destination.
 
 ## Requirements
 
-Please review the [general instructions](general.md) for assignments.
+Please review the [general instructions](general) for assignments.
 
 If your program is invoked as follows:
 ```
@@ -116,4 +116,4 @@ This assignment is due **Thursday, November 9th at 11:59PM**.  Late assignments 
 
 ## Frequently Asked Questions
 
-See the bottom of the [B-Minor Language Guide](bminor.md) for some FAQs about typechecking.
+See the bottom of the [B-Minor Language Guide](bminor) for some FAQs about typechecking.

@@ -28,7 +28,7 @@ expression and ensure that it is compatible with its destination.
 
 ## Requirements
 
-Please review the [general instructions](general.md) for assignments.
+Please review the [general instructions](general) for assignments.
 
 If your program is invoked as follows:
 ```
@@ -83,7 +83,7 @@ it is possible to express them syntactically:
 
 If these are encountered, emit a suitable error message indicating that they are not supported.
 
-**Note** that [B-Minor 2025](bminor.md) does allow for floating point variables,
+**Note** that [B-Minor 2025](bminor) does allow for floating point variables,
 and so you should extend the typechecking rules to accommodate them.
 
 ## Hints
@@ -139,4 +139,4 @@ This assignment is due <s>**Thursday, November 16th at 11:59PM**</s> **Friday, N
 
 ## Frequently Asked Questions
 
-See the bottom of the [B-Minor Language Guide](bminor.md) for some FAQs about typechecking.
+See the bottom of the [B-Minor Language Guide](bminor) for some FAQs about typechecking.
