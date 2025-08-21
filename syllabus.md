@@ -180,13 +180,12 @@ cheerfully corrected.  Matters of judgement are reserved to the TA.
 If, after talking to the TA, you are unconvinced,
 you can bring it up with Prof. Thain.
 
-grades are weighted as follows:
+Final grades are weighted as follows:
 Written Homeworks 20%, Programming Assignments 40%, Midterm 20%, Final 20%.
 
 ## Academic Code of Honor
 
-As a student at Notre Dame, you are bound by the [Academic Code of Honor] (http://honorcode.nd.edu),
-which states:
+As a student at Notre Dame, you are bound by the [Academic Code of Honor](http://honorcode.nd.edu), which states:
 
 *As a member of the Notre Dame community, I acknowledge that it is my responsibility to learn and abide by principles of intellectual honesty and academic integrity, and therefore I will not participate in or tolerate academic dishonesty.*
 
