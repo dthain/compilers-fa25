@@ -5,19 +5,17 @@ title: General Instructions for Assignments
 
 # General Instructions for Assignments
 
-## Standard Build Environment
+## Use the Student Machines
 
-To ensure a consistent environment between development and grading,
-please use the standard CSE student machines (RHEL8) to build and test your code.
+Please use the standard CSE student machines (RHEL8) to build and test your code.
 These are `student10.cse.nd.edu` through `student13.cse.nd.edu` and can be
-accessed via ssh.  
-These machines are using gcc-8.5.0, flex-2.6.1, and bison-3.0.4.
-Use `which gcc` to double check that you are using the standard `/usr/bin/gcc`
-and have not otherwise modified your PATH for another class.
+accessed via ssh.  These machines are equipped with `gcc-8.5.0`, `flex-2.6.1`,
+`bison-3.0.4`, and `make-4.2.1`.  This will ensure that you have a consistent
+working environment that matches the grader.
 
 **If you are using your laptop or another computer to develop your code,
 then you are responsible for checking that it works correctly on the standard
-student machines.  Your work will be graded on those machines.**
+student machines.  Your work will be graded on the student machines.**
 
 ## Code Organization
 
