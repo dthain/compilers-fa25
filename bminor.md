@@ -276,7 +276,7 @@ except giving a type of `function` followed by
 the return type, arguments, and code:
 
 ```
-square: function integer ( x: integer ) {
+square: function integer ( x: integer ) = {
 	return x^2;
 }
 ```
@@ -290,7 +290,7 @@ When used as a function parameter, the length of an array is omitted,
 and can be obtained at runtime with the `#` operator.
 
 ```
-printarray: function void ( a: array [] integer ) {
+printarray: function void ( a: array [] integer ) = {
 	i: integer;
 	for( i=0;i<#a;i++) {
 		print a[i], "\n";
@@ -307,7 +307,7 @@ by another library.  For example, to invoke the C function `puts`:
 ```
 puts: function void ( s: string );
 
-main: function integer () {
+main: function integer () = {
 	puts("hello world");
 }
 ```
@@ -318,12 +318,12 @@ in the C language: `argc` indicates the number of arguments, and
 `argv` is an (unsafe) array of strings:
 
 ```
-main: function integer ( argc: integer, argv: carray [] string ) {
+main: function integer ( argc: integer, argv: carray [] string ) = {
         puts("hello world");
 }
 ```
 
-## Questions and Clarifications for 2025
+## Questions and Clarifications
 
 Many fine-grained questions about exceptions and corner cases come up
 during the semester.  Clarifications will be posted here as they are decided.
