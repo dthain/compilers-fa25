@@ -82,7 +82,7 @@ Aug 25
 <li><a href="https://dthain.github.io/books/compiler/chapter2.pdf">Chapter 2</a>
 <li><a href="https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/">The&nbsp;Absolute&nbsp;Minimum...</a>
 <td>
-<a href=https://docs.google.com/presentation/d/1rjtXRK-gbc9ZA4RW97zVnwUZLxlr_mDndqCMHPiy-mo/edit>Overview</a>
+<a href="https://docs.google.com/presentation/d/1rjtXRK-gbc9ZA4RW97zVnwUZLxlr_mDndqCMHPiy-mo/edit">Overview</a>
 <td>
 Compiler Stages
 <td>
