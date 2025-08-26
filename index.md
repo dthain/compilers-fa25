@@ -5,7 +5,7 @@ layout: default
 
 # CSE 40243 - Compilers and Language Design - Fall 2025
 
-MWF 9:30-10:20 in Cushing 303
+MWF 9:25-10:15 in Cushing 303
 
 ## Instructors
 
