@@ -14,7 +14,7 @@ MWF 9:30-10:20 in Cushing 303
 <td><img src="images/dthain.jpg" height=128/></td>
 <td> 
 Prof. Douglas Thain (<tt>dthain@nd.edu</tt>)<br>
-Office Hours: TBA<br>
+Office Hours: MW 2-4PM <br>
 Office: 384 Fitpatrick Hall
 </td>
 </tr>
@@ -22,7 +22,7 @@ Office: 384 Fitpatrick Hall
 <td><img src="images/pjohns24.jpg" height=128/></td>
 <td>
 TA: Prince Noah Johnson (<tt>pjohns24@nd.edu</tt>)<br>
-Office Hours: TBA<br>
+Office Hours: Tue 4-6PM, Thu 5-7PM<br>
 Office: CSE Student Commons
 </td>
 </tr>
