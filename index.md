@@ -117,7 +117,8 @@ Flex
 <td>
 Sep 8
 <td>
-<a href="https://dthain.github.io/books/compiler/chapter4.pdf">Chapter 4.1-4.2</a>
+<li><a href="https://dthain.github.io/books/compiler/chapter4.pdf">Chapter 4.1-4.2</a><br>
+<li><a href="https://martinsteffen.github.io/compilerconstruction/leftandtailrecusion/">RegExp&nbsp;and&nbsp;Grammars</a><br>
 <td>
 CFGs
 <td>
@@ -134,7 +135,8 @@ LL(1) Grammars
 <td>
 Sep 15
 <td>
-<a href="https://dthain.github.io/books/compiler/chapter4.pdf">Chapter 4.2-4.3</a>
+<li><a href="https://dthain.github.io/books/compiler/chapter4.pdf">Chapter 4.2-4.3</a><br>
+<li><a href="https://pgrandinetti.github.io/compilers/page/how-to-design-a-parser/">How&nbsp;to&nbsp;design&nbsp;a&nbsp;Parser?</a><br> 
 <td>
 LL(1) Grammars
 <td>
