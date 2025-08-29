@@ -10,6 +10,6 @@ Write a regular expression for each of these tokens:
 <p><br><br><br><br><br></p>
 4. A calendar date like `17/06/2025`
 <p><br><br><br><br><br></p>
-5. A Markdown hyperlink like `[http://www.nd.edu](link text)`
+5. A Markdown hyperlink like `[link text](http://www.nd.edu)`
 <p><br><br><br><br><br></p>
 6. A sequence of any letters a-z that does not end in `ly`
