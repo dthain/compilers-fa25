@@ -90,7 +90,7 @@ Regular Expressions
 <td>
 <strong><a href="homework1">Homework&nbsp;1</a></strong>
 <td>
-<a href="handouts/handout-regex.md">Regex Handout</a><br>
+<a href="handouts/handout-regex">Regex Handout</a><br>
 <a href="https://regex101.com/">Regex 101</a>
 
 <tr>
@@ -109,7 +109,7 @@ Flex
 <td>
 <strong><a href="encoder">Encoder Due</a></strong>
 <td>
-<a href="https://github.com/cooperative-computing-lab/cctools/blob/master/dttools/src/jx_parse.c#L254">Hand&nbsp;Scanner</a><br>
+<a href="https://github.com/cooperative-computing-lab/cctools/blob/master/dttools/src/jx_parse.c#L287">Hand&nbsp;Scanner</a><br>
 <a href="https://westes.github.io/flex/manual/">Flex&nbsp;Scanner&nbsp;Generator</a><br>
 
 <tr>
