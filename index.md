@@ -90,6 +90,7 @@ Regular Expressions
 <td>
 <strong><a href="homework1">Homework&nbsp;1</a></strong>
 <td>
+<a href="handouts/handout-regex.md">Regex Handout</a>
 <a href="https://regex101.com/">Regex 101</a>
 
 <tr>
