@@ -126,7 +126,7 @@ CFGs
 <td>
 LL(1) Grammars
 <td>
-<strong>Homework 2</strong>
+<strong><a href="homework2">Homework 2</a></strong>
 <td>
 <a href="https://web.stanford.edu/class/archive/cs/cs103/cs103.1156/tools/cfg/">CFG&nbsp;Tool</a><br>
 <a href="https://en.wikipedia.org/wiki/Comparison_of_parser_generators">Parser&nbsp;Generators</a><br>
