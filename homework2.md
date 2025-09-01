@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Homework 2 - RegEx to Finite Automata
+---
 
 ## Homework 2
 
