@@ -19,16 +19,11 @@ The first step in building a compiler is to create a scanner.
 You will use the [Flex Scanner Generator](https://westes.github.io/flex/manual/)
 to construct a scanner generator for the [B-minor Language](bminor).
 It is up to you to carefully read this document and decide what all of the
-token types are, and define them carefully using flex regular expressions.
+token types are, and define them carefully using Flex regular expressions.
 Make sure that you define all reserved words, identifiers, operators, constants,
 statements, and any other program elements.
 If you think that the specification is not clear, be sure to ask for
 a clarification.
-
-For token types that have a corresponding value, you should extract the necessary
-value from `yytext`.  For string and character types, use the encoding functions that
-you wrote in the first assignment.  You may make any necessary changes to fix bugs or
-otherwise adapt the code to this stage.
 
 Make sure that you follow the [general instructions](general) for assignments,
 so that your work runs correctly on the student machines.
@@ -49,30 +44,32 @@ any escape codes translated.  If the input contains an invalid token,
 then the `bminor` should print a useful message to the standard error stream
 and exit with status one.  Otherwise, it should indicate success by exiting with status zero.
 
+**Note:** Do not put `printf` statements directly into your Flex specification.
+Instead, your Flex code should return the proper token type and extract the semantic
+value from yytext.  (For string and character types, use the encoding functions that
+you wrote in the first assignment.)  Then, let your main program call `yylex()` and
+then print out the desired information.  This will make it much easier to construct the next stage.
+
 For example, if the input looks like this:
 ```
-string
-1534
-3.4
-10e9
-'a'
-Notre Dame
-"\'Notre Dame\'";
->=
-@
+while( i<10 ) { print "\'count\'", i; } @
 ```
-then your output should be something like this:
+
+Then the output should look something like this:
 ```
-STRING
-INTEGER_LITERAL 1534
-FLOAT_LITERAL 3.4
-FLOAT_LITERAL 10e9
-CHARACTER_LITERAL a
-IDENTIFIER Notre
-IDENTIFIER Dame
-STRING_LITERAL 'Notre Dame'
-SEMICOLON
-GE
+TOKEN_WHILE
+TOKEN_LPAREN
+TOKEN_IDENTIFIER i
+TOKEN_LESSTHAN
+TOKEN_INTEGER_LITERAL 10
+TOKEN_RPAREN
+TOKEN_LBRACE
+TOKEN_PRINT
+TOKEN_STRING_LITERAL 'count'
+TOKEN_COMMA
+TOKEN_IDENTIFIER i
+TOKEN_SEMICOLON
+TOKEN_RBRACE
 scan error: @ is not a valid character
 ```
 
@@ -82,9 +79,7 @@ As with the previous step, create ten good test cases named `test/scanner/good[0
 that consist of valid B-minor tokens and ten bad test cases `test/scanner/bad[0-10].bminor`
 that contain at least one invalid token.
 
-You can also try these [example test cases](https://github.com/dthain/compilerbook-examples/tree/master/tests/scanner)
-that come with the textbook but note that they don't cover the features specific to [B-Minor 2023](bminor).
-We will evaluate your code using these and some other hidden test cases.
+You can also try these [example test cases](https://github.com/dthain/compilerbook-examples/tree/master/tests/scanner) that come with the textbook but note that they don't cover the features specific to [B-Minor 2025](bminor). We will evaluate your code with some additional hidden test cases for B-Minor 2025.
 
 As always, exercise good style in programming by choosing sensible
 variable names, breaking complex tasks down into smaller functions,
@@ -92,9 +87,11 @@ and using constructive comments where appropriate.
 
 Ensure that `make clean`, `make`, and `make test`, and continue to work properly.
 
+Update your development log to indicate what tools you used, what worked well, and what was challenging.
+
 # Turning In
 
 To turn in via github, please review the [General Instructions for Turning In](general).  Make sure that your code is tagged as a release named "scanner".
 
-**This assignment is due on Thursday, September 14th at 11:59PM  Late assignments are not accepted.**
+**This assignment is due on Thursday, September 19th at 9:30AM**
 
