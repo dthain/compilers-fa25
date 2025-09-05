@@ -144,7 +144,7 @@ Recursive Descent
 <td>
 LL(1) Table Parsing
 <td>
-<strong><a href="scanner.md">Scanner Due</a></strong>
+<strong><a href="scanner">Scanner Due</a></strong>
 <td>
 
 <tr>
