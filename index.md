@@ -86,7 +86,7 @@ Aug 25
 <td>
 Compiler Stages
 <td>
-Regular Expressions
+Tokens and FAs
 <td>
 <strong><a href="homework1">Homework&nbsp;1</a></strong>
 <td>
@@ -101,17 +101,16 @@ Sep 1
 <li><a href="bminor">B-Minor&nbsp;2025</a><br>
 <li><a href="https://nee.lv/2021/02/28/How-I-cut-GTA-Online-loading-times-by-70/">GTA&nbsp;Loading&nbsp;Time</a>
 <td>
+Regular Expressions
+<td>
 RE->NFA
 <td>
 NFA->DFA
-<td>
-Flex
 <td>
 <strong><a href="encoder">Encoder Due</a></strong>
 <td>
 <a href="handouts/handout-re-nfa-dfa">RE-NFA-DFA&nbsp;Handout</a><br>
 <a href="https://github.com/cooperative-computing-lab/cctools/blob/master/dttools/src/jx_parse.c#L287">Hand&nbsp;Scanner</a><br>
-<a href="https://westes.github.io/flex/manual/">Flex&nbsp;Scanner&nbsp;Generator</a><br>
 
 <tr>
 <td>
@@ -120,16 +119,16 @@ Sep 8
 <li><a href="https://dthain.github.io/books/compiler/chapter4.pdf">Chapter 4.1-4.2</a><br>
 <li><a href="https://martinsteffen.github.io/compilerconstruction/leftandtailrecusion/">RegExp&nbsp;and&nbsp;Grammars</a><br>
 <td>
-CFGs
+Flex
 <td>
 CFGs
 <td>
-LL(1) Grammars
+CFGs
 <td>
 <strong><a href="homework2">Homework 2</a></strong>
 <td>
+<a href="https://westes.github.io/flex/manual/">Flex&nbsp;Scanner&nbsp;Generator</a><br>
 <a href="https://web.stanford.edu/class/archive/cs/cs103/cs103.1156/tools/cfg/">CFG&nbsp;Tool</a><br>
-<a href="https://en.wikipedia.org/wiki/Comparison_of_parser_generators">Parser&nbsp;Generators</a><br>
 
 <tr>
 <td>
@@ -146,6 +145,7 @@ LL(1) Table Parsing
 <td>
 <strong><a href="scanner">Scanner Due</a></strong>
 <td>
+<a href="https://en.wikipedia.org/wiki/Comparison_of_parser_generators">Parser&nbsp;Generators</a><br>
 
 <tr>
 <td>
