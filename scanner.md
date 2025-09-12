@@ -79,7 +79,9 @@ As with the previous step, create ten good test cases named `test/scanner/good[0
 that consist of valid B-minor tokens and ten bad test cases `test/scanner/bad[0-10].bminor`
 that contain at least one invalid token.
 
-You can also try these [example test cases](https://github.com/dthain/compilerbook-examples/tree/master/tests/scanner) that come with the textbook but note that they don't cover the features specific to [B-Minor 2025](bminor). We will evaluate your code with some additional hidden test cases for B-Minor 2025.
+<strike>You can also try these [example test cases](https://github.com/dthain/compilerbook-examples/tree/master/tests/scanner) that come with the textbook but note that they don't cover the features specific to [B-Minor 2025](bminor).</strike>  Rely on your own test cases based on your reading of [B-Minor 2025](bminor).
+
+We will evaluate your code with some additional hidden test cases for B-Minor 2025.
 
 As always, exercise good style in programming by choosing sensible
 variable names, breaking complex tasks down into smaller functions,
