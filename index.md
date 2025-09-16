@@ -145,6 +145,7 @@ LL(1) Table Parsing
 <td>
 <strong><a href="scanner">Scanner Due</a></strong>
 <td>
+<a href="handouts/handout-ll1">LL(1) Handout</a>
 <a href="https://en.wikipedia.org/wiki/Comparison_of_parser_generators">Parser&nbsp;Generators</a><br>
 
 <tr>
