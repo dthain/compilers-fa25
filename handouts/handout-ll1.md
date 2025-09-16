@@ -17,5 +17,5 @@ L -> id[E]
 
 1 - Rewrite the grammar into LL(1) form.
 
-2 - Compute the FIRST and FOLLOW sets for this grammar.
+2 - Compute the FIRST and FOLLOW sets for your rewritten grammar.
 
