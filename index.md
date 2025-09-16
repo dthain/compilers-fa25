@@ -215,6 +215,16 @@ Printing
 <td>
 Oct 20
 <td>
+<td><i>Fall&nbsp;Break</i>
+<td><i>Fall&nbsp;Break</i>
+<td><i>Fall&nbsp;Break</i>
+<td>
+<td>
+
+<tr>
+<td>
+Oct 27
+<td>
 <a href="https://dthain.github.io/books/compiler/chapter7.pdf">Chapter 7</a>
 <td>
 Type Systems
@@ -224,16 +234,6 @@ Type Systems
 Name Resolution
 <td>
 Printer Due
-<td>
-
-<tr>
-<td>
-Oct 27
-<td>
-<td><i>Fall&nbsp;Break</i>
-<td><i>Fall&nbsp;Break</i>
-<td><i>Fall&nbsp;Break</i>
-<td>
 <td>
 
 <tr>
