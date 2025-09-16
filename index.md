@@ -159,7 +159,7 @@ LR(0) Automaton
 <td>
 SLR Parsing
 <td>
-<strong>Homework 3</strong>
+<strong><A href=homework3>Homework 3</a></strong>
 <td>
 
 <tr>
@@ -174,7 +174,7 @@ Bison
 <td>
 Parsing B-Minor
 <td>
-<strong>Homework 4</strong>
+<strong><a href=homework4>Homework 4</a></strong>
 <td>
 <a href="https://www.gnu.org/software/bison/manual/html_node/index.html">Bison&nbsp;Manual</a>
 <br>
