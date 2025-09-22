@@ -323,18 +323,21 @@ main: function integer ( argc: integer, argv: carray [] string ) = {
 }
 ```
 
-## Questions and Clarifications
+## Standards Committee Clarifications
 
-Many fine-grained questions about exceptions and corner cases come up
-during the semester.  Clarifications will be posted here as they are decided.
+Working out all the corner cases of a language from a specification
+is a surprising amount of work.  Even a good informal statement of a language
+can leave a number of details uncertain.  At various points in the semester,
+we will hold "standards committee" meetings to discuss and vote on any
+ambiguous aspects of the specification.
 
-### Scanning
+### Scanning (1.X)
 
-- **Q: Is `""` a valid string literal?**
+- **Q1.0: Is `""` a valid string literal?**
 
 A: Yes, two double quotes represents an empty string consisting only of the null terminator.
 
-- **Q: Is this a valid string literal?**
+- **Q1.1: Is this a valid string literal?**
 ```
 "hello
 world"
@@ -342,27 +345,39 @@ world"
 
 A: No, a newline in a string needs to be escaped, like this: `"hello\nworld"`
 
-- **Q: Do we need to handle #include, #define, and so forth?**
+- **Q1.2: Do we need to handle #include, #define, and so forth?**
 
 A: No, they are not part of B-minor.
 
-- **Q: Can an integer have a leading negative/positive sign?**
+- **Q1.3: Can an integer have a leading negative/positive sign?**
 
 A: Yes, it can have a leading sign.  However, we recommend that you
 treat this as two separate tokens like  `TOKEN_MINUS` `TOKEN_INTEGER`
 so as to avoid some parsing problems later on.
 
-### Parsing
+- **Q1.4: Can a hexidecimal constant use either upper or lower case characters?  (like `af35h` or `F6AC92H` or `1234deB5H`?**
 
-- **Q: Is `print;` a valid statement?**
+A: To be discussed on Sep 22, 2025.
+
+- **Q1.5: Should a token like `A123H` be treated as an identifier or a hexadecimal constant?**
+
+A: To be discussed on Sep 22, 2025.
+
+- **Q1.6: Can a string contain an unescaped quote, like `"""`?
+
+A: To be discussed on Sep 22, 2025.
+
+### Parsing (2.X)
+
+- **Q2.0: Is `print;` a valid statement?**
 
 A: Yes, it means to print out nothing.
 
-- **Q: Is `return;` a valid statement?**
+- **Q2.1: Is `return;` a valid statement?**
 
 A: Yes, it indicates a return with no value in a `void` function.
 
-- **Q: Does B-minor permit this syntax?**
+- **Q2.2: Does B-minor permit this syntax?**
 
 ```
 for(i=0;i<10,j<10;i++) { ... }
@@ -371,7 +386,7 @@ for(i=0;i<10,j<10;i++) { ... }
 A: No, commas may only be used in `print` statements,
 function calls, function prototypes, and array expressions.
 
-- **Q: Can a single statement (without braces) be used after a for-loop or an if-statement?**
+- **Q2.3: Can a single statement (without braces) be used after a for-loop or an if-statement?**
 
 A: Yes, the following are valid statements, just as in C and C++:
 
@@ -380,28 +395,17 @@ for(i=0;i<10;i++) print i;
 if(a) x=y; else z=w;
 ```
 
-- **Q: Is a single semicolon a valid statement?**
+- **Q2.4: Is a single semicolon a valid statement?**
 
 A: No.
 
-- **Q: Can an array be zero length?**
+- **Q2.5: Can an array be zero length?**
 
 A: No - An array must be declared with a positive length.
 
-- **Q: Can an array initializer by empty?**
+- **Q2.6: Can an array initializer by empty?**
 
 A: No - An initializer must either match the length of the array, or be omitted.  It cannot be empty.
 (It also avoids the case of an empty initializer `{}` begin confused with an
 empty statement block `{}`.
 
-### Pretty Printing
-
-TBA
-
-### Typechecking
-
-TBA
-
-### Code Generation
-
-TBA
