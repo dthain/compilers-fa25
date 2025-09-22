@@ -362,11 +362,9 @@ A: Decided: Hexadecimal numbers may use either upper or lower case.  <i>(Sep 22,
 
 A: Decided: Hexadecimal numbers must be represented as `0x1234abcd`.  The `x` must be lower case, while the digits may be either case.  Likewise, binary numbers must be represented as `0b010101`, and the `b` must be lower case.  (These were changed to be more consistent with escape codes.)   <i>(Sep 22, 2025)</i>
 
-- **Q1.7: Can a string contain an unescaped quote, like `"""`?
+- **Q1.7: Can a string contain an unescaped quote, like `"""`?**
 
 A: Decided: A quotation mark within a string must be escaped, like `"\""` <i>(Sep 22, 2025)</i>
-
-A: To be discussed on Sep 22, 2025.
 
 ### Parsing (2.X)
 
