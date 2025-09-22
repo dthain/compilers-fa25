@@ -75,8 +75,7 @@ c: char    = 'q';
 s: string  = "hello bminor\n";
 ```
 
-- `integer` is a signed 64-bit value.  An integer literal can be represented as a decimal (`123`),
-<strike>a hexidecimal value with an `H` suffix (`104A3FH`), or a binary value with a `B` suffix (`0101110101B`)</strike>, a hexadecimal value like `0x104A3F`, or a binary value like `0b0101110101`.  All three forms may omit leading zeroes as needed.
+- `integer` is a signed 64-bit value.  An integer literal can be represented as a decimal (`123`), <strike>a hexidecimal value with an `H` suffix (`104A3FH`), or a binary value with a `B` suffix (`0101110101B`)</strike>, a hexadecimal value like `0x104A3F`, or a binary value like `0b0101110101`.  All three forms may omit leading zeroes as needed.
 
 - `double` is a floating point number that follows the [IEEE 754 double-precision standard](https://en.wikipedia.org/wiki/Double-precision_floating-point_format).  `double` values can be represented in various ways. One method is to place the integer component, a period, and the fractional component all in a row, such as in `12.34`. Another valid method is to use the scientific representation of the value, which involves having a floating point value as described above followed by an exponent (represented as either `e` or `E`).   The exponent value may be preceded by an optional plus or minus sign.  Some examples of this would be `5.67E1` which has the value of 56.7, or `89e-2` which has the value of .89.
 
