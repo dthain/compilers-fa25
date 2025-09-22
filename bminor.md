@@ -76,7 +76,7 @@ s: string  = "hello bminor\n";
 ```
 
 - `integer` is a signed 64-bit value.  An integer literal can be represented as a decimal (`123`),
-a hexidecimal value with an `H` suffix (`104A3FH`), or a binary value with a `B` suffix (`0101110101B`).  All three forms may omit leading zeroes as needed.
+<strike>a hexidecimal value with an `H` suffix (`104A3FH`), or a binary value with a `B` suffix (`0101110101B`)</strike>, a hexadecimal value like `0x104A3F`, or a binary value like `0b0101110101`.  All three forms may omit leading zeroes as needed.
 
 - `double` is a floating point number that follows the [IEEE 754 double-precision standard](https://en.wikipedia.org/wiki/Double-precision_floating-point_format).  `double` values can be represented in various ways. One method is to place the integer component, a period, and the fractional component all in a row, such as in `12.34`. Another valid method is to use the scientific representation of the value, which involves having a floating point value as described above followed by an exponent (represented as either `e` or `E`).   The exponent value may be preceded by an optional plus or minus sign.  Some examples of this would be `5.67E1` which has the value of 56.7, or `89e-2` which has the value of .89.
 
@@ -357,13 +357,15 @@ so as to avoid some parsing problems later on.
 
 - **Q1.4: Can a hexidecimal constant use either upper or lower case characters?  (like `af35h` or `F6AC92H` or `1234deB5H`?**
 
-A: To be discussed on Sep 22, 2025.
+A: Decided: Hexadecimal numbers may use either upper or lower case.  <i>(Sep 22, 2025)</i>
 
 - **Q1.5: Should a token like `A123H` be treated as an identifier or a hexadecimal constant?**
 
-A: To be discussed on Sep 22, 2025.
+A: Decided: Hexadecimal numbers must be represented as `0x1234abcd`.  The `x` must be lower case, while the digits may be either case.  Likewise, binary numbers must be represented as `0b010101`, and the `b` must be lower case.  (These were changed to be more consistent with escape codes.)   <i>(Sep 22, 2025)</i>
 
-- **Q1.6: Can a string contain an unescaped quote, like `"""`?
+- **Q1.7: Can a string contain an unescaped quote, like `"""`?
+
+A: Decided: A quotation mark within a string must be escaped, like `"\""` <i>(Sep 22, 2025)</i>
 
 A: To be discussed on Sep 22, 2025.
 
