@@ -167,7 +167,8 @@ SLR Parsing
 <td>
 Sep 29
 <td>
-<a href="https://dthain.github.io/books/compiler/chapter5.pdf">Chapter 5</a>
+<li><a href="https://dthain.github.io/books/compiler/chapter5.pdf">Chapter 5</a><br>
+<li><a href="https://blog.reverberate.org/2013/09/ll-and-lr-in-context-why-parsing-tools.html">Why&nbsp;Parsing&nbsp;Tools&nbsp;Are&nbsp;Hard&nbsp;</a><br>
 <td>
 LR(1) Parsing
 <td>
