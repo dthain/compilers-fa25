@@ -162,7 +162,7 @@ SLR Parsing
 <td>
 <strong><A href=homework3>Homework 3</a></strong>
 <td>
-
+<a href="handouts/handout-slr.html">SLR Handout</a>
 <tr>
 <td>
 Sep 29
