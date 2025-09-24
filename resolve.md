@@ -100,6 +100,13 @@ and using constructive comments where appropriate.
 
 Ensure that `make clean`, `make`, and `make test`, and continue to work properly.
 
+## Development Log
+
+For each stage of the compiler, add a new section to `devel.md` with a few thoughts on building this stage:
+- What AI tools (if any) did you use, and what sort of prompts did you provide?
+- What parts of the code were easy to get right?
+- What parts were difficult to get right and required more effort?
+
 ## Grading
 
 **Tag your submission with `resolver` in github to turn in.**
