@@ -14,16 +14,21 @@ th, td {
 }
 </style>
 <table>
+  <tr>
+  <td>State
+  <td colspan=3>Goto
+  <td colspan=6>Action
 <tr>
 <td>
+<td>P
+<td>E
+<td>T
 <td>id
+<td>int
 <td>+
 <td>(
 <td>)
 <td>$
-<td>P
-<td>E
-<td>T
 <tr><td>0<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>
 <tr><td>1<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>
 <tr><td>2<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>
@@ -33,14 +38,16 @@ th, td {
 <tr><td>6<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>
 <tr><td>7<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>
 <tr><td>8<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>
+<tr><td>9<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>&nbsp;<td>
 </table>
 
 <div class=grammar>
 <ol>
-<li> P -> E
-<li> E -> E + T 
-<li> E -> T
-<li> T -> id (E)
-<li> T -> id
+<li> 1. P -> E
+<li> 2. E -> E + T 
+<li> 3. E -> T
+<li> 4. T -> int
+<li> 5. T -> id
+<li> 6. T -> (E)
 </ol>
 </div>
