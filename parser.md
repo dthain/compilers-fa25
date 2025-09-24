@@ -13,6 +13,8 @@ The objectives of this assignment are:
 - To learn how to use Bison and Flex together.
 - To gain experience in incremental software engineering.
 
+Review the [general instructions](general) for assignments.
+
 ## Overview
 
 The next step in building a compiler is to construct a parser.
@@ -22,10 +24,6 @@ to create a parser for [B-Minor Language](bminor).
 It is up to you to carefully read this document and decide what all of the
 relevant elements of B-Minor are.  Make sure that you include declarations,
 definitions, statements, expressions, and any other program elements.
-
-Make sure that you follow the [general instructions](general) for assignments,
-so that your work runs correctly on the student machines.  We want you to 
-have the benefit of using exactly the environment in which your work will be graded.
 
 ## Requirements
 
@@ -48,13 +46,15 @@ Then it should continue to operate as in the previous assignment; this will faci
 You may of course reorganize or move code around as long as the previous mode still works.
 
 Use the scanner code from the prior assignment as your starting point.
-If your scanner has any problems, then you should fix them before proceeding.
-Make sure that the action of each rule is to return a symbolic token type (e.g. `TOKEN_INTEGER`)
+Make sure to update your scanner to reflect the latest [standards committee decisions](https://dthain.github.io/compilers-fa25/bminor#standards-committee-clarifications).
+And if your scanner has any other problems, then you should fix them before proceeding.
+
+Make sure that the action of each scanner rule is to return a symbolic token type (e.g. `TOKEN_INTEGER_LITERAL`)
 so that `yylex()` has the proper return value to be used by `yyparse()`.
 You can and should fix anything in your scanner
 needed to get the entire scanner-parser combination working correctly.
 
-## Approach
+## General Approach
 
 We recommend that you construct your grammar in stages and begin
 by testing it on small examples, then proceeding to larger structures.
@@ -87,9 +87,7 @@ As with the previous step, create ten good test cases named `test/parser/good[0-
 that consist of valid B-minor programs and ten bad test cases `test/parser/bad[0-10].bminor`
 that scan correctly but contain parse errors.  Take the time to write thorough tests distinct from the scanner tests.
 
-You can also try these [example test cases](https://github.com/dthain/compilerbook-examples/tree/master/tests/parser)
-that come with the textbook but note that they don't cover the features specific to [B-Minor 2023](bminor).
-We will evaluate your code using these and some other hidden test cases.
+We will also evaluate your code using some hidden test cases based on the B-Minor specification.
 
 As always, exercise good style in programming by choosing sensible
 variable names, breaking complex tasks down into smaller functions,
@@ -108,8 +106,4 @@ For this assignment, your grade will be based upon the following:
 -  (20 points) Correctness on the instructors' hidden test cases.
 -  (10 points) Good programming style.  Each of the program components (main, scanner, parser) should be cleanly separated into multiple source files, complex or repetitive tasks should be broken into multiple functions, identifiers should be sensibly chosen, and the code generally commented and readable.
 
-This assignment is due on **Wednesday, October 11th at 11:59PM**.  Late assignments are not accepted.
-
-## Frequently Asked Questions
-
-See the bottom of the [B-Minor Language Guide](bminor) for some FAQs about parsing.
+This assignment is due on **Friday, October 10th at 9:30AM**.

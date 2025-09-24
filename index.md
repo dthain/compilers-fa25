@@ -77,7 +77,7 @@ Reference
 <td>
 Aug 25
 <td>
-<li><a href=syllabus>Syllabus</a>
+<li><a href="syllabus">Syllabus</a>
 <li><a href="https://dthain.github.io/books/compiler/chapter1.pdf">Chapter 1</a>
 <li><a href="https://dthain.github.io/books/compiler/chapter2.pdf">Chapter 2</a>
 <li><a href="https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/">The&nbsp;Absolute&nbsp;Minimum...</a>
@@ -160,7 +160,7 @@ LR(0) Automaton
 <td>
 SLR Parsing
 <td>
-<strong><A href=homework3>Homework 3</a></strong>
+<strong><A href="homework3">Homework 3</a></strong>
 <td>
 <a href="handouts/handout-slr.html">SLR Handout</a>
 <tr>
@@ -176,7 +176,7 @@ Bison
 <td>
 Parsing B-Minor
 <td>
-<strong><a href=homework4>Homework 4</a></strong>
+<strong><a href="homework4">Homework 4</a></strong>
 <td>
 <a href="https://www.gnu.org/software/bison/manual/html_node/index.html">Bison&nbsp;Manual</a>
 <br>
@@ -194,7 +194,7 @@ AST
 <td>
 AST
 <td>
-<strong>Parser Due</strong>
+<strong><a href="parser">Parser Due</a></strong>
 <td>
 <a href="ast.html">AST Handout</a>
 
