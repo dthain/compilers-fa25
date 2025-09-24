@@ -89,8 +89,8 @@ looking for the closest instance of a matching definition.
 
 ## Testing
 
-As with the previous step, create ten good test cases named `test/resolve/good[0-10].bminor`
-that consist of valid B-minor programs and ten bad test cases `test/resolve/bad[0-10].bminor`
+As before, create ten good test cases named `test/resolve/good[0-9].bminor`
+that consist of valid B-minor programs and ten bad test cases `test/resolve/bad[0-9].bminor`
 that contain at least one typechecking error.
 We will evaluate your code using these and some other hidden test cases.
 
@@ -102,7 +102,7 @@ Ensure that `make clean`, `make`, and `make test`, and continue to work properly
 
 ## Grading
 
-**Tag your submission with `resolve` in github to turn in.**
+**Tag your submission with `resolver` in github to turn in.**
 
 For this assignment, your grade will be based upon the following:
 

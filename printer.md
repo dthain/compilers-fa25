@@ -12,6 +12,8 @@ title: Pretty-Printer Assignment
 -  To use compiler techniques to perform source-code manipulations.
 -  To gain experience in incremental software engineering.
 
+Please review the [general instructions](general) for assignments.
+
 ## Overview
 
 The third step in building a compiler is to construct the Abstract Syntax Tree (AST).
@@ -23,7 +25,6 @@ much like the tool `/usr/bin/indent`.
 
 ## Requirements
 
-Please review the [general instructions](general) for assignments.
 To keep the class reasonably synchronized, you must use the
 [B-Minor Starter Code](https://github.com/dthain-courses/compiler-starter-code) as the basis for the AST, although you are welcome
 to add or adjust fields in the structures as necessary.
@@ -49,12 +50,12 @@ And it should behave as follows:
 
 Continuing from the previous assignment, add functions to build the
 parts of the AST, and then modify the grammar to invoke those actions
-appropriately:
+appropriately, for example:
 
 ```
-expr : expr TOKEN_ADD expr
+expr : expr TOKEN_ADD term
           { $$ = expr_create( EXPR_ADD, $1, $3 ); }
-     | expr TOKEN_SUB expr
+     | expr TOKEN_SUB term
           { $$ = expr_create( EXPR_SUB, $1, $3 ); }
      ...
      ;
@@ -86,9 +87,9 @@ Bison which member of the union to use for each production:
 Finally, write the code which will pretty-print the AST back out:
 
 ```
-decl_print( struct decl *d );
-stmt_print( struct stmt *s );
-expr_print( struct expr *e );
+decl_print( struct decl *d ) { ... }
+stmt_print( struct stmt *s ) { ... }
+expr_print( struct expr *e ) { ... }
 ...
 ```
 
@@ -132,13 +133,13 @@ fib: function integer ( x: integer ) =
 
 You can exercise your judgement on the remaining details not specified,
 as long as your output is *consistent*.  For example, we don't care
-whether you ident by tabs or spaces (or how many spaces). 
+whether you ident by tabs or spaces (or how many spaces), as long as it is consistent.
 
 ## Testing
 
-As with the previous step, create <s>ten</s> **twenty** good test cases named `test/printer/good[0-10].bminor`
-that consist of valid B-minor programs <s>and ten bad test cases `test/printer/bad[0-10].bminor`
-that contain at least one parsing error.</s>
+As with the previous step, create **twenty good test cases** named `test/printer/good[0-19].bminor`
+that consist of valid B-minor programs to be reformatted.  You don't need to create any bad test
+cases for this step, but of course all the prior good/bad cases should continue to work.
 We will evaluate your code using these and some other hidden test cases.
 
 **Because the output of the pretty-printer must be a valid B-minor program,
@@ -154,7 +155,7 @@ Ensure that `make clean`, `make`, and `make test`, and continue to work properly
 
 ## Grading
 
-To turn in via github, please review the [general instructions for assignments](general)  Make sure that your code is tagged as a release named **printer**.
+To turn in via github, please review the [general instructions for assignments](general)  Make sure that your code is tagged as a release named `printer`.
 
 For this assignment, your grade will be based upon the following:
 
@@ -164,9 +165,4 @@ For this assignment, your grade will be based upon the following:
 -  (20 points) Correctness on the instructors' hidden test cases.
 -  (10 points) Good programming style.  Each of the program components (main, scanner, parser) should be cleanly separated into multiple source files, complex or repetitive tasks should be broken into multiple functions, identifiers should be sensibly chosen, and the code generally commented and readable.
 
-This assignment is due **Monday, October 30th at 11:59PM**.  Late assignments are not accepted.
-
-## Frequently Asked Questions
-
-See the bottom of the [B-Minor Language Guide](bminor) for some FAQs about printing.
-
+This assignment is due **Friday, October 31 at 9:30AM**.  Late assignments are not accepted.

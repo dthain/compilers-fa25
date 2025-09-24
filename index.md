@@ -208,7 +208,7 @@ Printing
 <td>
 Printing
 <td>
-<strong>Midterm&nbsp;Exam</strong>
+<strong><a href="midterm">Midterm&nbsp;Exam</a></strong>
 <td>
 <td>
 

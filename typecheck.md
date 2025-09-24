@@ -125,7 +125,7 @@ Ensure that `make clean`, `make`, and `make test`, and continue to work properly
 
 ## Grading
 
-**Tag your submission with `typecheck` in github to turn in.**
+**Tag your submission with `typechecker` in github to turn in.**
 
 For this assignment, your grade will be based upon the following:
 

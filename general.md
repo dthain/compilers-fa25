@@ -71,7 +71,7 @@ Likewise, `make clean` should remove all intermediate object files, automaticall
 
 3) On the righthand side under "Releases", click "Create new release"
 
-3) Click "Choose a new tag", type "encode" (or "scan", "parse", "print", "typecheck" or "codegen" for later assignments) then click "Create new tag"
+3) Click "Choose a new tag", type "encoder" (or "scanner", "parser", "printer", "resolver", "typechecker" or "codegen" for later assignments) then click "Create new tag"
 
 4) Click "Publish release" at the bottom and you're done!
 
