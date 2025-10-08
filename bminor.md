@@ -408,3 +408,7 @@ A: No - An initializer must either match the length of the array, or be omitted.
 (It also avoids the case of an empty initializer `{}` begin confused with an
 empty statement block `{}`.
 
+- **Q2.7: Is an empty file (no declarations) a valid B-minor module?**
+
+A: Yes - An empty file should parse, typecheck, and compile to an empty assembly program.  However, it won't be a complete linkable program without a `main` function.
+
