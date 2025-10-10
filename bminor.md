@@ -210,7 +210,7 @@ s: auto = "hello"; // s will have type string
 
 t: auto = x < y;   // t will have type boolean
 
-f: function auto ( x: integer, y: integer )
+f: function auto ( x: integer, y: integer ) =
 {
 	return x + y;  // f will have return type integer
 }
