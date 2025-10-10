@@ -234,7 +234,7 @@ Type Systems
 <td>
 Name Resolution
 <td>
-Printer Due
+<strong><a href=printer>Printer Due</a>a></strong>
 <td>
 
 <tr>
