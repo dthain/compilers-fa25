@@ -245,7 +245,7 @@ Nov 3
 <td>Checking Exprs
 <td>Checking Statements
 <td>Checking Decls
-<td><strong>Resolver Due</strong>
+<td>
 <td>
 
 <tr>
@@ -256,7 +256,7 @@ Nov 10
 <td>Memory&nbsp;Org
 <td>Memory&nbsp;Org
 <td>Memory&nbsp;Org
-<td><strong>Type Checker Due</strong>
+<td><strong>Resolver Due</strong>
 <td>
 
 <tr>
@@ -267,7 +267,7 @@ Nov 17
 <td>Assembly
 <td>Assembly
 <td>Assembly
-<td>
+<td><strong>Type Checker Due</strong>
 <td><a href="https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html">Intel&nbsp;Manuals</a>
 <br>
 <a href="https://refspecs.linuxbase.org/elf/x86_64-abi-0.99.pdf">Calling&nbsp;Convention</a>
