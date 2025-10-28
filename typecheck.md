@@ -72,7 +72,7 @@ where checks must be made.
 Think carefully about function calls and definitions, array
 definitions, etc.
 
-The following "oddities" are not supported in B-minor, even though
+The following "oddities" should be flagged as errors, even though
 it is possible to express them syntactically:
 
 - Functions that return arrays or other functions.
@@ -83,8 +83,9 @@ it is possible to express them syntactically:
 
 If these are encountered, emit a suitable error message indicating that they are not supported.
 
-**Note** that [B-Minor 2025](bminor) does allow for floating point variables,
-and so you should extend the typechecking rules to accommodate them.
+**Note** that [B-Minor 2025](bminor) allows some additional language elements,
+such as double-precision floating points, arrays (and the length operator), C-arrays,
+and automatic types.  You should extend the typechecking rules to accommodate them.
 
 ## Hints
 
@@ -142,7 +143,7 @@ For this assignment, your grade will be based upon the following:
 -  Correctness on our test cases.  (20 percent)
 -  Good programming style. (10 percent)
 
-This assignment is due <s>**Thursday, November 16th at 11:59PM**</s> **Friday, November 17th at 11:59PM**.  Late assignments are not accepted.
+This assignment is due **Friday, November 21st at 11:59PM**.  Late assignments are not accepted.
 
 ## Frequently Asked Questions
 
