@@ -245,7 +245,6 @@ Nov 3
 <td>Checking Exprs
 <td>Checking Statements
 <td>Checking Decls
-<<<<<<< HEAD
 <td>
 <td>
 
