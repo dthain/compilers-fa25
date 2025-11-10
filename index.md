@@ -254,7 +254,7 @@ Nov 10
 <td>
 <a href="https://dthain.github.io/books/compiler/chapter9.pdf">Chapter 9</a>
 <td>Memory&nbsp;Org
-<td>Memory&nbsp;Org
+<td><i>(no class)</i>
 <td>Memory&nbsp;Org
 <td><strong><a href=resolve>Resolver Due</a></strong>
 <td>
