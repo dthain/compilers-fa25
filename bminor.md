@@ -412,3 +412,18 @@ empty statement block `{}`.
 
 A: Yes - An empty file should parse, typecheck, and compile to an empty assembly program.  However, it won't be a complete linkable program without a `main` function.
 
+### Name Resolution and Type Checking
+
+- **Q3.0: Can a declaration be used as the sole statement within an `if` or `for` statement?**
+
+A: No - The following statements are invalid:
+
+```
+if(x<10) a: integer = 5;
+else     b: integer = 10;
+
+for(i=0;i<10;i++) c: integer = 30;
+```
+
+You may detect this problem at any stage of the compiler where it is most convenient: parsing, name resolution, or typechecking.
+
