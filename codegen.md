@@ -61,31 +61,15 @@ will require you do go back and make a few changes to earlier stages.
 Do what you need to do in order to get the code working!
 The assembly code that you produce must work correctly, but it need not be simple, pretty, or optimal.
 
-## Baseline Requirements
+## Simplifying Requirements
 
 You may make the following simplifying assumptions for your code generator and receive full credit:
 
 - Due to the large number of X86-64 registers, you may use a simple non-spilling register allocator,
 and fail with an "out of registers" error on really complicated nested expressions.
-- To keep the calling conventions simple, calls to functions with more than six arguments may fail with a "too many arguments" error.
-- Only one-dimensional arrays of integers of constant size at global scope must be implemented.
-Arrays of other types, or arrays as parameters or local variables may fail with an "array not implemented" error.
-- Floating point types may fail code generation with an "floating not not supported" error.
-
-The baseline compiler should be tagged as `codegen`.
-
-## Extra Credit Options
-
-Once you have **perfected** the baseline compiler, then you may attempt one of options for up to 10 percent extra credit.
-
-- Implement support for floating point values.  It should be possible to declare and use floating point values
-at global scope, local scope, in function paramers, in arrays, in expressions, and in print statements.
-Conversion between integers and floating point is not required.  See these [notes on floating point](float) to get started.
-- Implement support for dynamically allocated and checked arrays.  Arrays declared at local scope may have a size determined
-at runtime.  This requires that the array be allocated using `malloc`.  The size of the array should be stored in the first
-cell, so that the `array_length` operator can return the actual size, and array lookups should be checked for valid bounds.
-
-Any extra credit attempted should be tagged as `codegen-extracredit`
+- Calls to functions with more than six arguments may fail with a "too many arguments" error.
+- Arrays at local scope and multi-dimensional arays may fail with an error of "not implemented".  (However, you must support global one-dimensional arrays (and carrays) and passing arrays (and carrays) as function arguments.)
+- Floating point types may fail code generation with an "floating point not not supported" error.
 
 ## Hints
 
@@ -128,10 +112,11 @@ sure that your code works there.
 Your grade on this project will be based upon:
 
 - Continued correctness on previous stages. (10 percent)
-- General structure and completeness of the code generation stage. (40 percent)
+- General structure and completeness of the code generation stage. (30 percent)
 - Correctness of your test cases. (20 percent)
-- Correctness on our test cases. (20 percent)
+- Correctness on our test cases. (30 percent)
 - Good programming style. (10 percent)
  
-The final code generator is due **Thursday, Dec 7th at 11:59PM**.  Late assignments are not accepted.
+The final code generator is due **Wednesday, Dec 10th at 11:59PM**.
+We are not permitted to run assignments into exam week, so there will be no extensions.
 

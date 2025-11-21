@@ -300,8 +300,8 @@ Dec 8
 <td>
 <a href="https://dthain.github.io/books/compiler/chapter12.pdf">Chapter 12</a>
 <td> Optimization
-<td> Review<br><strong>Codegen Due</strong>
-<td> <strong>Final Exam</strong><br><strong>7:30-9:30PM</strong>
+<td> Review<br><a href=codegen>Codegen Due</a>
+<td> <a href=final>Final Exam</a><br><strong>7:30-9:30PM</strong>
 <td>
 <td>
 
