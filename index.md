@@ -287,7 +287,8 @@ Nov 24
 <td>
 Dec 1
 <td>
-<a href="https://dthain.github.io/books/compiler/chapter12.pdf">Chapter 12</a>
+<a href="https://dthain.github.io/books/compiler/chapter12.pdf">Chapter 12</a><br>
+<a href="https://xania.org/202512/01-xor-eax-eax">Why XOR?</a>
 <td>Codegen Stmts
 <td>Codegen Decls
 <td>Optimization
