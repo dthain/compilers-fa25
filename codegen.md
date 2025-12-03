@@ -103,7 +103,7 @@ For each stage of the compiler, add a new section to `devel.md` with a few thoug
 
 ## Turning In
 
-**Tag your submission with `codegen` in github to turn in.**  If you have attempted extra credit, then tag that additionally as `codegen-extracredit`.
+**Tag your submission with `codegen` in github to turn in.**
 
 Your submission will be tested on the CSE student Linux machines,
 so be sure to follow the [general instructions](general) and make
