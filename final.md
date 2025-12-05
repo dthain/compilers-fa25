@@ -27,7 +27,7 @@ project and homeworks is fair game.  Expect about six pages, each one covering a
     - Interpreting While Parsing
     - Constructing the AST
 - Abstract Syntax Tree
-    Understand all the parts of language grammar:
+    - Understand all the parts of language grammar:
     - Declarations
     - Statements
     - Expressions
@@ -35,12 +35,12 @@ project and homeworks is fair game.  Expect about six pages, each one covering a
     - Parameters vs Arguments
     - Symbols
 - Type Checking
-    Aspects of type systems:
+    - Aspects of type systems:
        - Static vs Dynamic
        - Safe vs Unsafe
        - Explicit vs Implicit
        - Data conversions
-    Methods of checking types in B-minor:
+    -Methods of checking types in B-minor:
        - Computing Expression Types
        - Type Constraints in Statements
        - Type Constraints in Declarations
